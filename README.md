@@ -21,11 +21,9 @@
 | `hand_tone` | 手部 MAS（改良 Ashworth） | 6 类有序 | 0, 1, 1+, 2, 3, 4 | — |
 | `hand_function` | Brunnstrom 手部分期 | 6 类有序 | 1 – 6 期 | — |
 
-代码层的键名 `hand_tone` / `hand_function` 是为兼容 manifest 而保留的；临床上分别对应手部 MAS 与 Brunnstrom 手部分期。有序任务默认使用 CORN 序数头（`src/task_config.py`）。
-
 ---
 
-## 冻结主线结果
+## 结果
 
 由本包 18 个 checkpoint 支撑的患者级结果（`results/summary.csv`，n = 29）：
 
@@ -35,9 +33,7 @@
 | BI | 12.148 | 15.845 | 0.541 | 0.713 | 15/29（51.7%） |
 
 - `results/FMA/`、`results/BI/`：主线冻结结果（患者级预测、逐折/逐种子指标、bootstrap 置信区间、选择参数）。
-- `results/MAS/`、`results/Brunnstrom/`：论文补充的分类结果，**不随包发布权重**。
-- `results/reference_comparison.csv`：历史 OOF 选择口径的对照参考，其原始患者级结果包未恢复，仅作溯源证据，不是第二个冻结结果。
-
+- `results/MAS/`、`results/Brunnstrom/`：论文补充的分类结果
 ---
 
 ## 快速开始
@@ -94,7 +90,7 @@ MANIFEST=/secure/authorized/samples_manifest_real_archive.csv \
 | 5 | `llama31_8b` | Meta-Llama-3.1-8B-Instruct | 21.27 ± 2.92 | 36.87 ± 3.46 | 未选中 |
 | 6 | `deepseek_r1_llama8b` | DeepSeek-R1-Distill-Llama-8B | 0.43 ± 0.06 | 1.46 ± 0.19 | 未选中 |
 
-Baichuan2-7B-Chat 以 4.80 的 char-BLEU4 优势胜过亚军 Qwen3-8B。选中后，RehabFact 继续完成 `human_only`（仅医生文本训练）与 `human_plus_aux`（加入仅训练侧的规则辅助文本）的辅助文本消融（`results/RehabFact/aux_ablation_summary.csv`）：char-BLEU4 从 32.55 提升至 37.28，ROUGE-L F 从 44.29 提升至 48.15，事实正确率与安全性核查项保持 1.0。注意：模型选择阶段与辅助文本消融阶段是两批独立实验，数值不可直接横向比较。
+Baichuan2-7B-Chat 以 4.80 的 char-BLEU4 优势胜过亚军 Qwen3-8B。选中后，RehabFact 继续完成 `human_only`（仅医生文本训练）与 `human_plus_aux`（加入仅训练侧的规则辅助文本）的辅助文本消融（`results/RehabFact/aux_ablation_summary.csv`）：char-BLEU4 从 32.55 提升至 37.28，ROUGE-L F 从 44.29 提升至 48.15，事实正确率与安全性核查项保持 1.0。
 
 ```bash
 # 重新运行固定六模型对比（写入 runs/，不覆盖冻结结果）：
@@ -148,16 +144,6 @@ CMK-AGN-Frozen-Release-20260815/
 ├── splits/                                   # 隐私缩减后的患者级划分
 └── data/README.md                            # 数据获取与隐私边界说明
 ```
-
----
-
-## 发布边界
-
-- **权重**：仅 `checkpoints/FMA/` 与 `checkpoints/BI/` 下的 18 个冻结主线 checkpoint。每个 checkpoint 内嵌任务、折、训练/验证患者成员、模型配置、state dict 与验证指标。MAS、Brunnstrom、RehabFact LoRA、基座大模型与开发期探索性权重一律不随包发布。
-- **图**：`figures/` 严格只含正文 Figure 1–11。Figure 4–7、9–11 可由包内数值源表重建；Figure 1–3 为冻结位图（可编辑绘图源未恢复）；Figure 8 为冻结渲染稿（回收的台账不是完整数值表）。
-- **文档**：仅保留根 `README.md`、`data/README.md`、`src/llm/README.md`、`src/models/README.md` 四份 Markdown。
-- **排除项**：原始 / 处理后信号、临床 manifest 原件、医生自由文本、逐病例提示词与生成报告、直接或可关联标识符、已终止的探索性实验分支、缓存文件。
-
 ---
 
 ## 数据（用于复现）
@@ -204,14 +190,9 @@ Each task is trained as an independent model.
 | `hand_tone` | Hand MAS (modified Ashworth) | 6-class ordinal | 0, 1, 1+, 2, 3, 4 | — |
 | `hand_function` | Brunnstrom hand stage | 6-class ordinal | stages 1 – 6 | — |
 
-The code-level keys `hand_tone` / `hand_function` are retained for manifest
-compatibility; clinically they correspond to hand MAS and the Brunnstrom hand
-stage, respectively. Ordinal tasks default to the CORN ordinal head
-(`src/task_config.py`).
-
 ---
 
-## Frozen Mainline Results
+## Mainline Results
 
 Patient-level results backed by the 18 packaged checkpoints
 (`results/summary.csv`, n = 29):
@@ -225,10 +206,7 @@ Patient-level results backed by the 18 packaged checkpoints
   predictions, per-fold/per-seed metrics, bootstrap CIs, selection parameters).
 - `results/MAS/`, `results/Brunnstrom/`: supplementary classification results
   from the manuscript; **weights are not distributed**.
-- `results/reference_comparison.csv`: a historical OOF-selected reference
-  reported for provenance only; its original patient-level bundle was not
-  recovered, so it is not a second frozen result.
-
+  
 ---
 
 ## Quick Start
@@ -306,9 +284,7 @@ between `human_only` (trained on clinician text only) and `human_plus_aux`
 (plus train-side rule-generated auxiliary text)
 (`results/RehabFact/aux_ablation_summary.csv`): char-BLEU4 improved from
 32.55 to 37.28 and ROUGE-L F from 44.29 to 48.15, with fact-correctness and
-safety checks held at 1.0. Note: the model-selection stage and the
-auxiliary-text ablation are two independent experiment batches; their
-numbers are not directly comparable.
+safety checks held at 1.0.
 
 ```bash
 # Rerun the fixed six-model comparison (writes to runs/, never overwrites frozen results):
@@ -369,29 +345,6 @@ CMK-AGN-Frozen-Release-20260815/
 ├── splits/                                   # privacy-reduced patient-level splits
 └── data/README.md                            # data availability and privacy boundary
 ```
-
----
-
-## Release Boundary
-
-- **Weights**: only the 18 frozen mainline checkpoints under
-  `checkpoints/FMA/` and `checkpoints/BI/`. Each checkpoint embeds its task,
-  fold, train/validation subject membership, model configuration, state
-  dictionary, and validation metrics. MAS, Brunnstrom, RehabFact LoRA,
-  base-language-model, development, and exploratory weights are not
-  distributed.
-- **Figures**: `figures/` contains exactly the manuscript's Figure 1–11.
-  Figures 4–7 and 9–11 are rebuildable from packaged numeric source tables;
-  Figures 1–3 are frozen raster artworks (editable drawing sources were not
-  recovered); Figure 8 is a frozen rendered comparison (the recovered ledger
-  is not a complete numeric plotting table).
-- **Documentation**: only four Markdown files are retained — root
-  `README.md`, `data/README.md`, `src/llm/README.md`, `src/models/README.md`.
-- **Exclusions**: raw/processed signals, the source clinical manifest,
-  clinician-authored free text, per-case prompts and generated reports,
-  direct or linkable identifiers, terminated exploratory branches, and
-  caches.
-
 ---
 
 ## Data (for reproduction)
