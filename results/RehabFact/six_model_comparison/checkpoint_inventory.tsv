@@ -1,0 +1,19 @@
+model_id	fold	adapter_relative_path	size_bytes	modified_at
+baichuan2_7b	1	results/llm/checkpoints/baichuan2_7b/fold1/adapter_model.safetensors	54822160	2026-08-06 11:51
+baichuan2_7b	2	results/llm/checkpoints/baichuan2_7b/fold2/adapter_model.safetensors	54822160	2026-08-06 11:54
+baichuan2_7b	3	results/llm/checkpoints/baichuan2_7b/fold3/adapter_model.safetensors	54822160	2026-08-06 11:56
+qwen3_8b	1	results/llm/checkpoints/qwen3_8b/fold1/adapter_model.safetensors	87361592	2026-08-06 13:38
+qwen3_8b	2	results/llm/checkpoints/qwen3_8b/fold2/adapter_model.safetensors	87361592	2026-08-06 13:43
+qwen3_8b	3	results/llm/checkpoints/qwen3_8b/fold3/adapter_model.safetensors	87361592	2026-08-06 13:47
+deepseek_r1_llama8b	1	results/llm/checkpoints/deepseek_r1_llama8b/fold1/adapter_model.safetensors	83946192	2026-08-06 14:47
+deepseek_r1_llama8b	2	results/llm/checkpoints/deepseek_r1_llama8b/fold2/adapter_model.safetensors	83946192	2026-08-06 14:55
+deepseek_r1_llama8b	3	results/llm/checkpoints/deepseek_r1_llama8b/fold3/adapter_model.safetensors	83946192	2026-08-06 15:01
+llama31_8b	1	results/llm/checkpoints/llama31_8b/fold1/adapter_model.safetensors	83946192	2026-08-06 17:29
+llama31_8b	2	results/llm/checkpoints/llama31_8b/fold2/adapter_model.safetensors	83946192	2026-08-06 17:33
+llama31_8b	3	results/llm/checkpoints/llama31_8b/fold3/adapter_model.safetensors	83946192	2026-08-06 17:36
+glm4_9b_chat	1	results/llm/checkpoints/glm4_9b_chat/fold1/adapter_model.safetensors	95255896	2026-08-06 17:39
+glm4_9b_chat	2	results/llm/checkpoints/glm4_9b_chat/fold2/adapter_model.safetensors	95255896	2026-08-06 17:44
+glm4_9b_chat	3	results/llm/checkpoints/glm4_9b_chat/fold3/adapter_model.safetensors	95255896	2026-08-06 17:47
+gemma3_4b	1	results/llm/checkpoints/gemma3_4b/fold1/adapter_model.safetensors	65675408	2026-08-07 09:59
+gemma3_4b	2	results/llm/checkpoints/gemma3_4b/fold2/adapter_model.safetensors	65675408	2026-08-07 10:02
+gemma3_4b	3	results/llm/checkpoints/gemma3_4b/fold3/adapter_model.safetensors	65675408	2026-08-07 10:05

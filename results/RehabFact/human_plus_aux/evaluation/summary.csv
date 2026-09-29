@@ -1,0 +1,4 @@
+model_id,fold,all.char_bleu4,all.rougeL_f
+baichuan2_7b,1,39.5652,50.9687
+baichuan2_7b,2,37.4768,49.234
+baichuan2_7b,3,34.7991,44.2347

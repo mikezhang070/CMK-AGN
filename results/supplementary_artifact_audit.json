@@ -1,0 +1,35 @@
+{
+  "classification_checkpoint_audit": {
+    "hand_tone": {
+      "checkpoint_count": 3,
+      "paths": [
+        "/root/offline/CMK-AGN-real29-clean/results/module/tri/hand_tone/hand_tone_fold1.pth",
+        "/root/offline/CMK-AGN-real29-clean/results/module/tri/hand_tone/hand_tone_fold2.pth",
+        "/root/offline/CMK-AGN-real29-clean/results/module/tri/hand_tone/hand_tone_fold3.pth"
+      ]
+    },
+    "hand_function": {
+      "checkpoint_count": 3,
+      "paths": [
+        "/root/offline/CMK-AGN-real29-clean/results/module/tri/hand_function/hand_function_fold1.pth",
+        "/root/offline/CMK-AGN-real29-clean/results/module/tri/hand_function/hand_function_fold2.pth",
+        "/root/offline/CMK-AGN-real29-clean/results/module/tri/hand_function/hand_function_fold3.pth"
+      ]
+    }
+  },
+  "rehabfact_artifact_paths": [
+    {
+      "path": "/root/offline/CMK-AGN-real29-clean/results/llm_rehabfact_v3_aux_ablation",
+      "exists": true
+    },
+    {
+      "path": "/root/offline/CMK-AGN-real29-clean/results/llm_rehabfact_v3_aux_review",
+      "exists": true
+    },
+    {
+      "path": "/root/offline/CMK-AGN-real29-clean/checkpoints/llm",
+      "exists": false
+    }
+  ],
+  "note": "Supplementary artifacts are audited only; this final reproduction does not retrain classification or RehabFact."
+}

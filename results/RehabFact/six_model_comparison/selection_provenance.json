@@ -1,0 +1,41 @@
+{
+  "experiment": "six-base-model RehabFact selection",
+  "split": "splits/llm_real_text13_patient_3fold.json",
+  "n_folds": 3,
+  "candidate_model_ids": [
+    "baichuan2_7b",
+    "qwen3_8b",
+    "gemma3_4b",
+    "glm4_9b_chat",
+    "llama31_8b",
+    "deepseek_r1_llama8b"
+  ],
+  "selected_model_id": "baichuan2_7b",
+  "selected_base_model": "Baichuan2-7B-Chat",
+  "selection_metric": "all.char_bleu4",
+  "selected_char_bleu4_mean": 47.294,
+  "selected_char_bleu4_std": 5.3301,
+  "runner_up_model_id": "qwen3_8b",
+  "runner_up_char_bleu4_mean": 42.4914,
+  "margin_over_runner_up": 4.8026,
+  "selection_confirmed_by": [
+    "server inventory containing three saved adapters for each candidate",
+    "regenerated leaderboard from the original server-side fold evaluation reports",
+    "subsequent RehabFact experiments retaining Baichuan2-7B-Chat",
+    "manuscript method and frozen release model-selection metadata"
+  ],
+  "complete_numeric_leaderboard_present": true,
+  "leaderboard_files": [
+    "evaluation/summary.csv",
+    "evaluation/mean.csv",
+    "evaluation/best_model.json"
+  ],
+  "per_fold_reports": "evaluation/<model_id>/fold{1,2,3}.{json,csv}",
+  "restoration": {
+    "restored_from": "server export /root/offline/CMK-AGN-real29-clean/results/llm via scripts/run_rehabfact_six_llm_experiment.sh export-existing",
+    "export_archive": "rehabfact_six_model_results_20260929_133626.tar.gz",
+    "restored_into_release": true,
+    "notes": "Evaluation reports contain aggregate text-overlap metrics only; per-case predictions and clinician-authored text were excluded by the exporter and are not part of this release."
+  },
+  "recovery_entrypoint": "scripts/run_rehabfact_six_llm_experiment.sh export-existing"
+}

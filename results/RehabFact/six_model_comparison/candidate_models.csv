@@ -1,0 +1,7 @@
+model_id,base_model,fold_adapters_confirmed_in_server_inventory,selected_for_rehabfact,numeric_metrics_in_local_release
+baichuan2_7b,Baichuan2-7B-Chat,3,true,true
+qwen3_8b,Qwen3-8B,3,false,true
+gemma3_4b,Gemma-3-4B-IT,3,false,true
+glm4_9b_chat,GLM-4-9B-Chat,3,false,true
+llama31_8b,Meta-Llama-3.1-8B-Instruct,3,false,true
+deepseek_r1_llama8b,DeepSeek-R1-Distill-Llama-8B,3,false,true

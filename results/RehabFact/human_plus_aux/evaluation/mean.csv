@@ -1,0 +1,2 @@
+model_id,all.char_bleu4_mean,all.char_bleu4_std,all.rougeL_f_mean,all.rougeL_f_std
+baichuan2_7b,37.2804,2.3891,48.1458,3.4964

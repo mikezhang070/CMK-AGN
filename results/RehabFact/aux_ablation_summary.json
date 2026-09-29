@@ -1,0 +1,355 @@
+{
+  "model": "baichuan2_7b",
+  "fold_rows": [
+    {
+      "variant": "human_only",
+      "fold": 1,
+      "n": 5.0,
+      "char_bleu4": 34.871557748899676,
+      "sacrebleu_zh": 30.050406134933123,
+      "word_bleu4": 28.063329390859526,
+      "rouge1_f": 57.83499321230175,
+      "rouge2_f": 35.951983087886354,
+      "rougeL_f": 47.91494705307608,
+      "all_input_values_correct_rate": 1.0,
+      "fact_value_complete_rate": 1.0,
+      "recommendation_safe_rate": 1.0,
+      "policy_coverage_rate": 1.0,
+      "final_report_safe_rate": 1.0
+    },
+    {
+      "variant": "human_only",
+      "fold": 2,
+      "n": 4.0,
+      "char_bleu4": 31.1744299493228,
+      "sacrebleu_zh": 24.30766917769441,
+      "word_bleu4": 21.89184959422608,
+      "rouge1_f": 53.14988888178588,
+      "rouge2_f": 31.991902492653264,
+      "rougeL_f": 43.26292796608182,
+      "all_input_values_correct_rate": 1.0,
+      "fact_value_complete_rate": 1.0,
+      "recommendation_safe_rate": 1.0,
+      "policy_coverage_rate": 1.0,
+      "final_report_safe_rate": 1.0
+    },
+    {
+      "variant": "human_only",
+      "fold": 3,
+      "n": 4.0,
+      "char_bleu4": 31.611018322662392,
+      "sacrebleu_zh": 26.731712661890516,
+      "word_bleu4": 22.812025326479933,
+      "rouge1_f": 52.204825452003604,
+      "rouge2_f": 29.127198828058482,
+      "rougeL_f": 41.68455140220216,
+      "all_input_values_correct_rate": 1.0,
+      "fact_value_complete_rate": 1.0,
+      "recommendation_safe_rate": 1.0,
+      "policy_coverage_rate": 1.0,
+      "final_report_safe_rate": 1.0
+    },
+    {
+      "variant": "human_plus_aux",
+      "fold": 1,
+      "n": 5.0,
+      "char_bleu4": 39.565241269559316,
+      "sacrebleu_zh": 34.58638450223107,
+      "word_bleu4": 32.04973814804118,
+      "rouge1_f": 61.805444221368724,
+      "rouge2_f": 37.85811468591606,
+      "rougeL_f": 50.96870321932776,
+      "all_input_values_correct_rate": 1.0,
+      "fact_value_complete_rate": 1.0,
+      "recommendation_safe_rate": 1.0,
+      "policy_coverage_rate": 1.0,
+      "final_report_safe_rate": 1.0
+    },
+    {
+      "variant": "human_plus_aux",
+      "fold": 2,
+      "n": 4.0,
+      "char_bleu4": 37.47682563748851,
+      "sacrebleu_zh": 32.4980418640951,
+      "word_bleu4": 29.795513808374647,
+      "rouge1_f": 57.781052513760564,
+      "rouge2_f": 34.362193219899574,
+      "rougeL_f": 49.233966443440494,
+      "all_input_values_correct_rate": 1.0,
+      "fact_value_complete_rate": 1.0,
+      "recommendation_safe_rate": 1.0,
+      "policy_coverage_rate": 1.0,
+      "final_report_safe_rate": 1.0
+    },
+    {
+      "variant": "human_plus_aux",
+      "fold": 3,
+      "n": 4.0,
+      "char_bleu4": 34.79911342381127,
+      "sacrebleu_zh": 29.746550936979304,
+      "word_bleu4": 26.391678816429597,
+      "rouge1_f": 52.896875056824186,
+      "rouge2_f": 30.65216928625798,
+      "rougeL_f": 44.23472192400989,
+      "all_input_values_correct_rate": 1.0,
+      "fact_value_complete_rate": 1.0,
+      "recommendation_safe_rate": 1.0,
+      "policy_coverage_rate": 1.0,
+      "final_report_safe_rate": 1.0
+    }
+  ],
+  "summary": [
+    {
+      "variant": "human_only",
+      "metric": "n",
+      "mean": 4.333333333333333,
+      "std": 0.5773502691896257,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_only",
+      "metric": "char_bleu4",
+      "mean": 32.55233534029495,
+      "std": 2.0203333357059017,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_only",
+      "metric": "sacrebleu_zh",
+      "mean": 27.029929324839348,
+      "std": 2.8829597332522856,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_only",
+      "metric": "word_bleu4",
+      "mean": 24.255734770521844,
+      "std": 3.3294163811658577,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_only",
+      "metric": "rouge1_f",
+      "mean": 54.39656918203041,
+      "std": 3.015021737987721,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_only",
+      "metric": "rouge2_f",
+      "mean": 32.35702813619937,
+      "std": 3.4270114677339185,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_only",
+      "metric": "rougeL_f",
+      "mean": 44.287475473786685,
+      "std": 3.239094115376295,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_only",
+      "metric": "all_input_values_correct_rate",
+      "mean": 1.0,
+      "std": 0.0,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_only",
+      "metric": "fact_value_complete_rate",
+      "mean": 1.0,
+      "std": 0.0,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_only",
+      "metric": "recommendation_safe_rate",
+      "mean": 1.0,
+      "std": 0.0,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_only",
+      "metric": "policy_coverage_rate",
+      "mean": 1.0,
+      "std": 0.0,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_only",
+      "metric": "final_report_safe_rate",
+      "mean": 1.0,
+      "std": 0.0,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_plus_aux",
+      "metric": "n",
+      "mean": 4.333333333333333,
+      "std": 0.5773502691896257,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_plus_aux",
+      "metric": "char_bleu4",
+      "mean": 37.280393443619694,
+      "std": 2.3891280555036833,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_plus_aux",
+      "metric": "sacrebleu_zh",
+      "mean": 32.27699243443516,
+      "std": 2.427476956141735,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_plus_aux",
+      "metric": "word_bleu4",
+      "mean": 29.412310257615143,
+      "std": 2.848428087734575,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_plus_aux",
+      "metric": "rouge1_f",
+      "mean": 57.494457263984486,
+      "std": 4.461194208702878,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_plus_aux",
+      "metric": "rouge2_f",
+      "mean": 34.2908257306912,
+      "std": 3.603502777104561,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_plus_aux",
+      "metric": "rougeL_f",
+      "mean": 48.14579719559271,
+      "std": 3.496385312775743,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_plus_aux",
+      "metric": "all_input_values_correct_rate",
+      "mean": 1.0,
+      "std": 0.0,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_plus_aux",
+      "metric": "fact_value_complete_rate",
+      "mean": 1.0,
+      "std": 0.0,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_plus_aux",
+      "metric": "recommendation_safe_rate",
+      "mean": 1.0,
+      "std": 0.0,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_plus_aux",
+      "metric": "policy_coverage_rate",
+      "mean": 1.0,
+      "std": 0.0,
+      "n_folds": 3
+    },
+    {
+      "variant": "human_plus_aux",
+      "metric": "final_report_safe_rate",
+      "mean": 1.0,
+      "std": 0.0,
+      "n_folds": 3
+    },
+    {
+      "variant": "delta_plus_minus_human_only",
+      "metric": "n",
+      "mean": 0.0,
+      "std": null,
+      "n_folds": 3
+    },
+    {
+      "variant": "delta_plus_minus_human_only",
+      "metric": "char_bleu4",
+      "mean": 4.7280581033247415,
+      "std": null,
+      "n_folds": 3
+    },
+    {
+      "variant": "delta_plus_minus_human_only",
+      "metric": "sacrebleu_zh",
+      "mean": 5.2470631095958105,
+      "std": null,
+      "n_folds": 3
+    },
+    {
+      "variant": "delta_plus_minus_human_only",
+      "metric": "word_bleu4",
+      "mean": 5.156575487093299,
+      "std": null,
+      "n_folds": 3
+    },
+    {
+      "variant": "delta_plus_minus_human_only",
+      "metric": "rouge1_f",
+      "mean": 3.097888081954075,
+      "std": null,
+      "n_folds": 3
+    },
+    {
+      "variant": "delta_plus_minus_human_only",
+      "metric": "rouge2_f",
+      "mean": 1.9337975944918355,
+      "std": null,
+      "n_folds": 3
+    },
+    {
+      "variant": "delta_plus_minus_human_only",
+      "metric": "rougeL_f",
+      "mean": 3.8583217218060284,
+      "std": null,
+      "n_folds": 3
+    },
+    {
+      "variant": "delta_plus_minus_human_only",
+      "metric": "all_input_values_correct_rate",
+      "mean": 0.0,
+      "std": null,
+      "n_folds": 3
+    },
+    {
+      "variant": "delta_plus_minus_human_only",
+      "metric": "fact_value_complete_rate",
+      "mean": 0.0,
+      "std": null,
+      "n_folds": 3
+    },
+    {
+      "variant": "delta_plus_minus_human_only",
+      "metric": "recommendation_safe_rate",
+      "mean": 0.0,
+      "std": null,
+      "n_folds": 3
+    },
+    {
+      "variant": "delta_plus_minus_human_only",
+      "metric": "policy_coverage_rate",
+      "mean": 0.0,
+      "std": null,
+      "n_folds": 3
+    },
+    {
+      "variant": "delta_plus_minus_human_only",
+      "metric": "final_report_safe_rate",
+      "mean": 0.0,
+      "std": null,
+      "n_folds": 3
+    }
+  ]
+}

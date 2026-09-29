@@ -1,8 +1,18 @@
-.venv/
-.aligned_cache/
-data/llm_real_text/
-results/llm/
-results/
+# Python
 __pycache__/
 *.py[cod]
+.venv/
+
+# OS
 .DS_Store
+
+# Alignment cache
+.aligned_cache/
+
+# New experiment outputs written by the packaged entry scripts
+runs/
+exports/
+
+# Dev-only patient-sensitive trees (never part of the frozen release)
+data/llm_real_text/
+results/llm/

@@ -1,0 +1,132 @@
+{
+  "task": "FMA_UE",
+  "final_variant": "E3_scale_constraint/selected_oof",
+  "metrics": {
+    "n_patients": 29,
+    "mae": 2.5172413793103448,
+    "rmse": 3.8214458357880816,
+    "r2": 0.749826855699503,
+    "pearson_r": 0.8718595966586776,
+    "spearman_r": 0.8312594864159386,
+    "mean_signed_error": -0.06896551724137931,
+    "median_signed_error": 0.5,
+    "median_absolute_error": 1.0,
+    "error_sd": 3.888453920470913,
+    "tolerance_accuracy": 0.5517241379310345,
+    "tolerance_hits": 16,
+    "tolerance_total": 29
+  },
+  "bootstrap_95pct_ci": {
+    "mae": [
+      1.5517241379310345,
+      3.6379310344827585
+    ],
+    "rmse": [
+      2.3925170701657454,
+      5.052333873416171
+    ],
+    "r2": [
+      0.4952043110749931,
+      0.9040844263034374
+    ],
+    "pearson_r": [
+      0.7466001913122491,
+      0.9563133659387313
+    ],
+    "spearman_r": [
+      0.6291069550042448,
+      0.9284269649872183
+    ],
+    "tolerance_accuracy": [
+      0.3793103448275862,
+      0.7241379310344828
+    ]
+  },
+  "fold_metrics": [
+    {
+      "fold": 1,
+      "n_patients": 10,
+      "mae": 2.2,
+      "rmse": 2.6832815729997477,
+      "r2": 0.8632218844984803,
+      "pearson_r": 0.9345551834836798,
+      "spearman_r": 0.851916777110271,
+      "mean_signed_error": 0.4,
+      "median_signed_error": 0.5,
+      "median_absolute_error": 2.5,
+      "error_sd": 2.7968235951204043,
+      "tolerance_accuracy": 0.4,
+      "tolerance_hits": 4,
+      "tolerance_total": 10
+    },
+    {
+      "fold": 2,
+      "n_patients": 10,
+      "mae": 4.0,
+      "rmse": 5.643580423808985,
+      "r2": 0.46461590183224066,
+      "pearson_r": 0.7222798688478429,
+      "spearman_r": 0.6299723647178859,
+      "mean_signed_error": -1.3,
+      "median_signed_error": 0.25,
+      "median_absolute_error": 1.75,
+      "error_sd": 5.788878225624642,
+      "tolerance_accuracy": 0.5,
+      "tolerance_hits": 5,
+      "tolerance_total": 10
+    },
+    {
+      "fold": 3,
+      "n_patients": 9,
+      "mae": 1.2222222222222223,
+      "rmse": 1.9148542155126762,
+      "r2": 0.9391393442622951,
+      "pearson_r": 0.9760775978507051,
+      "spearman_r": 0.9445824605849511,
+      "mean_signed_error": 0.7777777777777778,
+      "median_signed_error": 0.0,
+      "median_absolute_error": 1.0,
+      "error_sd": 1.855921454276674,
+      "tolerance_accuracy": 0.7777777777777778,
+      "tolerance_hits": 7,
+      "tolerance_total": 9
+    }
+  ],
+  "fold_mean": {
+    "n_patients": 9.666666666666666,
+    "mae": 2.4740740740740743,
+    "rmse": 3.4139054041071364,
+    "r2": 0.7556590435310054,
+    "pearson_r": 0.8776375500607426,
+    "spearman_r": 0.8088238674710361,
+    "mean_signed_error": -0.040740740740740744,
+    "median_signed_error": 0.25,
+    "median_absolute_error": 1.75,
+    "error_sd": 3.480541091673907,
+    "tolerance_accuracy": 0.5592592592592592,
+    "tolerance_hits": 5.333333333333333,
+    "tolerance_total": 9.666666666666666
+  },
+  "fold_sample_sd": {
+    "n_patients": 0.5773502691896257,
+    "mae": 1.4090244122224012,
+    "rmse": 1.9688088203392098,
+    "r2": 0.25489301269682346,
+    "pearson_r": 0.13613608837337537,
+    "spearman_r": 0.16167135569188643,
+    "mean_signed_error": 1.106787885671104,
+    "median_signed_error": 0.25,
+    "median_absolute_error": 0.75,
+    "error_sd": 2.053689229811317,
+    "tolerance_accuracy": 0.19573644832183426,
+    "tolerance_hits": 1.5275252316519465,
+    "tolerance_total": 0.5773502691896257
+  },
+  "selection_scope": "outer-train inner OOF only",
+  "outer_test_used_for_selection": false,
+  "bootstrap": {
+    "unit": "patient",
+    "n_boot": 20000,
+    "seed": 2026
+  }
+}

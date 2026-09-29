@@ -1,0 +1,21 @@
+{
+  "all": {
+    "char_bleu1": 54.60741672002919,
+    "char_bleu2": 48.35055860958301,
+    "char_bleu3": 43.895945329282156,
+    "char_bleu4": 40.55182245603318,
+    "sacrebleu_zh": 39.367600927513536,
+    "word_bleu1": 49.8046875,
+    "word_bleu2": 42.357351648575744,
+    "word_bleu3": 37.57258794156858,
+    "word_bleu4": 34.136054525160105,
+    "rouge1_f": 65.00153617520124,
+    "rouge2_f": 49.552302775414994,
+    "rougeL_f": 53.260132085947745,
+    "n": 4.0
+  },
+  "evaluation_scope": {
+    "reference_type": "real_human_rehab_text",
+    "note": "Small-sample exploratory text-overlap metrics; no universal pass threshold is applied."
+  }
+}

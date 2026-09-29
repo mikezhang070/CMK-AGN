@@ -1,0 +1,275 @@
+{
+  "audit_kind": "read_only_final_reproduction_provenance",
+  "project_root": "/root/offline/CMK-AGN-real29-clean",
+  "fixed_seeds": [
+    2024,
+    42,
+    1337
+  ],
+  "outer_split": {
+    "path": "/root/offline/CMK-AGN-real29-clean/splits/split_patient_3fold.json",
+    "split_unit": "subject_id",
+    "n_folds": 3,
+    "n_unique_subjects": 29,
+    "folds": [
+      {
+        "fold": 1,
+        "train_subjects": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "10",
+          "12",
+          "14",
+          "15",
+          "17",
+          "19",
+          "22",
+          "23",
+          "24",
+          "26",
+          "28",
+          "29"
+        ],
+        "test_subjects": [
+          "1",
+          "9",
+          "11",
+          "13",
+          "16",
+          "18",
+          "20",
+          "21",
+          "25",
+          "27"
+        ],
+        "n_train": 19,
+        "n_test": 10
+      },
+      {
+        "fold": 2,
+        "train_subjects": [
+          "1",
+          "2",
+          "4",
+          "5",
+          "6",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "16",
+          "18",
+          "20",
+          "21",
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "test_subjects": [
+          "3",
+          "7",
+          "14",
+          "15",
+          "17",
+          "19",
+          "22",
+          "23",
+          "24",
+          "29"
+        ],
+        "n_train": 19,
+        "n_test": 10
+      },
+      {
+        "fold": 3,
+        "train_subjects": [
+          "1",
+          "3",
+          "7",
+          "9",
+          "11",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "27",
+          "29"
+        ],
+        "test_subjects": [
+          "2",
+          "4",
+          "5",
+          "6",
+          "8",
+          "10",
+          "12",
+          "26",
+          "28"
+        ],
+        "n_train": 20,
+        "n_test": 9
+      }
+    ],
+    "all_subject_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29"
+    ]
+  },
+  "source_chain": {
+    "outer_training_orchestrator": {
+      "path": "/root/offline/CMK-AGN-real29-clean/scripts/run_tolerance_confirmation.sh",
+      "sha256": "ddc6a9dd7cad780a29b340aaf3f87261ce44cc079df0f5184a5db68c0d44d673",
+      "size_bytes": 1081
+    },
+    "inner_oof_orchestrator": {
+      "path": "/root/offline/CMK-AGN-real29-clean/scripts/run_tolerance_upgrade_v2.sh",
+      "sha256": "607d496d45b470e6840dd03622b48bfbcf2cce185176b43e1279810339d5f9c3",
+      "size_bytes": 2789
+    },
+    "inner_oof_split_builder": {
+      "path": "/root/offline/CMK-AGN-real29-clean/scripts/build_inner_oof_splits.py",
+      "sha256": "73ef21d588478b7dd4b6ce8c07403a8e8f3ceae592ddd9757cfba9b179909730",
+      "size_bytes": 3395
+    },
+    "oof_ensemble_and_scale_evaluator": {
+      "path": "/root/offline/CMK-AGN-real29-clean/scripts/evaluate_tolerance_upgrade.py",
+      "sha256": "8fb32e8cb7de94fab5fb0e434828d881b67514657f64888955c6da518f9a2420",
+      "size_bytes": 14946
+    },
+    "seed_ensemble_utility": {
+      "path": "/root/offline/CMK-AGN-real29-clean/scripts/evaluate_seed_ensemble.py",
+      "sha256": "862623501c326a2677a41df2417f6e831049795ab266b2097fbd1620a840f93c",
+      "size_bytes": 6432
+    },
+    "training_entry": {
+      "path": "/root/offline/CMK-AGN-real29-clean/src/train.py",
+      "sha256": "940301d7b63cacf77b4275225ff8e5b1b9c1f27ed850b024206a3001319abbb1",
+      "size_bytes": 59672
+    },
+    "model_class": {
+      "path": "/root/offline/CMK-AGN-real29-clean/src/clinical_model.py",
+      "sha256": "02d6fb6441309ee5d1e412db4545df2dfaccdb9c0b0c9efb226a245a0bfc08e7",
+      "size_bytes": 13920
+    },
+    "tri_modal_backbone": {
+      "path": "/root/offline/CMK-AGN-real29-clean/src/models/adk_mdfan_tri.py",
+      "sha256": "25c206aafa6a0122ef07593dd1c943c3d52e44b6eab3bfb6a3c06c1f39feed39",
+      "size_bytes": 11890
+    },
+    "manifest": {
+      "path": "/root/offline/CMK-AGN-real29-clean/data/samples_manifest_real_archive.csv",
+      "sha256": "976770042c53643ee7dcb72b54e0d59f78c80f677f3cb2452a4323855a68901a",
+      "size_bytes": 26750
+    },
+    "outer_split": {
+      "path": "/root/offline/CMK-AGN-real29-clean/splits/split_patient_3fold.json",
+      "sha256": "d64c25eb2b60b0db277e21b803d5384f816980f4f56fa53ad25425dbc8682e63",
+      "size_bytes": 15244
+    }
+  },
+  "final_protocol": {
+    "outer_training": "tri-modal CMK-AGN via src/train.py; MAE checkpoint selection",
+    "inner_selection": "two-fold inner OOF patient splits only",
+    "FMA_final_variant": "E3_scale_constraint/selected_oof",
+    "BI_final_variant": "E1_ensemble/weighted_oof_mae",
+    "BI_calibration": "excluded from final variant",
+    "outer_test_used_for_selection": false,
+    "bootstrap": {
+      "unit": "patient",
+      "n_boot": 20000,
+      "seed": 2026
+    }
+  },
+  "historical_candidate_status": {
+    "FMA_UE": {
+      "expected_path": "/root/offline/CMK-AGN-real29-clean/results/tolerance_upgrade_v2/E3_scale_constraint/selected_oof/FMA_UE/summary.json",
+      "exists": true,
+      "metrics": {
+        "n_patients": 29,
+        "mae": 2.3620689655172415,
+        "rmse": 3.7999546276783085,
+        "r2": 0.7526328118634401,
+        "pearson_r": 0.8729007849790389,
+        "spearman_r": 0.8420940847207474,
+        "mean_signed_error": -0.1896551724137931,
+        "median_signed_error": 0.0,
+        "median_absolute_error": 1.0,
+        "error_sd": 3.862396076048631,
+        "tolerance_accuracy": 0.6551724137931034,
+        "tolerance_hits": 19,
+        "tolerance_total": 29
+      },
+      "selection_metadata": {
+        "selection_scope": "outer-train inner OOF only",
+        "test_labels_used_for_selection": false
+      }
+    },
+    "BI": {
+      "expected_path": "/root/offline/CMK-AGN-real29-clean/results/tolerance_upgrade_v2/E1_ensemble/weighted_oof_mae/BI/summary.json",
+      "exists": true,
+      "metrics": {
+        "n_patients": 29,
+        "mae": 12.122640938594424,
+        "rmse": 15.087431906305092,
+        "r2": 0.5840579339825368,
+        "pearson_r": 0.770120280756282,
+        "spearman_r": 0.6987105399252638,
+        "mean_signed_error": 2.070706452994513,
+        "median_signed_error": 1.581512451171875,
+        "median_absolute_error": 11.976395416259763,
+        "error_sd": 15.209184857788443,
+        "tolerance_accuracy": 0.3793103448275862,
+        "tolerance_hits": 11,
+        "tolerance_total": 29
+      },
+      "selection_metadata": {
+        "selection_scope": "outer-train inner OOF only",
+        "test_labels_used_for_selection": false
+      }
+    }
+  }
+}

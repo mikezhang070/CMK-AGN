@@ -1,0 +1,10 @@
+{
+  "metric": "all.char_bleu4",
+  "best_model_id": "baichuan2_7b",
+  "best_hf_id": "/root/offline/models/Baichuan2-7B-Chat",
+  "best_all.char_bleu4_mean": 47.294,
+  "best_all.char_bleu4_std": 5.3301,
+  "runner_up_id": "qwen3_8b",
+  "margin_over_runner_up": 4.8026,
+  "n_folds": 3
+}

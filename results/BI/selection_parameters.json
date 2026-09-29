@@ -1,0 +1,381 @@
+{
+  "per_fold_selection": [
+    {
+      "outer_fold": 1,
+      "weighted": {
+        "objective": "OOF MAE; tie: OOF tolerance; tie: nearest uniform",
+        "oof_metrics": {
+          "n_patients": 19,
+          "mae": 10.75083562951339,
+          "rmse": 13.728853245315149,
+          "r2": 0.6815268451826093,
+          "pearson_r": 0.835950600374307,
+          "spearman_r": 0.7964834994601463,
+          "mean_signed_error": 2.9766189274034986,
+          "median_signed_error": 4.362975883483884,
+          "median_absolute_error": 7.283278369903563,
+          "error_sd": 13.769535360223564,
+          "tolerance_accuracy": 0.631578947368421,
+          "tolerance_hits": 12,
+          "tolerance_total": 19
+        },
+        "weights": {
+          "seed2024": 0.15,
+          "seed42": 0.0,
+          "seed1337": 0.85
+        }
+      },
+      "calibration_selected": "isotonic",
+      "calibration_oof_scores": {
+        "linear": {
+          "n_patients": 19,
+          "mae": 10.184563523692375,
+          "rmse": 12.662668970342292,
+          "r2": 0.7290714254699672,
+          "pearson_r": 0.8538567944743237,
+          "spearman_r": 0.7867917754622905,
+          "mean_signed_error": 6.731457496674633e-15,
+          "median_signed_error": 1.0647367361500528,
+          "median_absolute_error": 9.76411847979449,
+          "error_sd": 13.009655652623131,
+          "tolerance_accuracy": 0.5263157894736842,
+          "tolerance_hits": 10,
+          "tolerance_total": 19
+        },
+        "ridge_alpha_1": {
+          "n_patients": 19,
+          "mae": 10.184654660150024,
+          "rmse": 12.662669170723317,
+          "r2": 0.7290714168953222,
+          "pearson_r": 0.8538567944743235,
+          "spearman_r": 0.7867917754622905,
+          "mean_signed_error": 1.2154020480106977e-14,
+          "median_signed_error": 1.0623952216461987,
+          "median_absolute_error": 9.761375773361806,
+          "error_sd": 13.009655858495062,
+          "tolerance_accuracy": 0.5263157894736842,
+          "tolerance_hits": 10,
+          "tolerance_total": 19
+        },
+        "isotonic": {
+          "n_patients": 19,
+          "mae": 6.9824561403508785,
+          "rmse": 9.245672292502631,
+          "r2": 0.855562056322646,
+          "pearson_r": 0.9249659757648635,
+          "spearman_r": 0.8630836119217438,
+          "mean_signed_error": -1.8698493046318425e-16,
+          "median_signed_error": 0.0,
+          "median_absolute_error": 6.25,
+          "error_sd": 9.499025291127584,
+          "tolerance_accuracy": 0.6842105263157895,
+          "tolerance_hits": 13,
+          "tolerance_total": 19
+        }
+      },
+      "scale_selected": "raw",
+      "scale_oof_scores": {
+        "raw": {
+          "n_patients": 19,
+          "mae": 10.870519236514443,
+          "rmse": 13.101197869491783,
+          "r2": 0.7099810895987693,
+          "pearson_r": 0.8538567944743237,
+          "spearman_r": 0.7867917754622905,
+          "mean_signed_error": 3.1176191296493787,
+          "median_signed_error": 3.0664291381835938,
+          "median_absolute_error": 8.219740549723312,
+          "error_sd": 13.07354176058225,
+          "tolerance_accuracy": 0.5263157894736842,
+          "tolerance_hits": 10,
+          "tolerance_total": 19
+        },
+        "clip": {
+          "n_patients": 19,
+          "mae": 10.870519236514443,
+          "rmse": 13.101197869491783,
+          "r2": 0.7099810895987693,
+          "pearson_r": 0.8538567944743237,
+          "spearman_r": 0.7867917754622905,
+          "mean_signed_error": 3.1176191296493787,
+          "median_signed_error": 3.0664291381835938,
+          "median_absolute_error": 8.219740549723312,
+          "error_sd": 13.07354176058225,
+          "tolerance_accuracy": 0.5263157894736842,
+          "tolerance_hits": 10,
+          "tolerance_total": 19
+        }
+      }
+    },
+    {
+      "outer_fold": 2,
+      "weighted": {
+        "objective": "OOF MAE; tie: OOF tolerance; tie: nearest uniform",
+        "oof_metrics": {
+          "n_patients": 19,
+          "mae": 15.183677136270624,
+          "rmse": 18.315702508304284,
+          "r2": 0.47551818981140714,
+          "pearson_r": 0.7828027486624285,
+          "spearman_r": 0.6831283450223699,
+          "mean_signed_error": 8.860131579951235,
+          "median_signed_error": 6.855758666992173,
+          "median_absolute_error": 12.967563438415525,
+          "error_sd": 16.4693275657347,
+          "tolerance_accuracy": 0.3684210526315789,
+          "tolerance_hits": 7,
+          "tolerance_total": 19
+        },
+        "weights": {
+          "seed2024": 0.85,
+          "seed42": 0.0,
+          "seed1337": 0.15
+        }
+      },
+      "calibration_selected": "isotonic",
+      "calibration_oof_scores": {
+        "linear": {
+          "n_patients": 19,
+          "mae": 14.390756736758554,
+          "rmse": 16.214418367913776,
+          "r2": 0.5889581721675357,
+          "pearson_r": 0.76743610298678,
+          "spearman_r": 0.6972316398873478,
+          "mean_signed_error": -3.739698609263685e-16,
+          "median_signed_error": 0.07363303274017596,
+          "median_absolute_error": 14.296935862641178,
+          "error_sd": 16.658731272860845,
+          "tolerance_accuracy": 0.3157894736842105,
+          "tolerance_hits": 6,
+          "tolerance_total": 19
+        },
+        "ridge_alpha_1": {
+          "n_patients": 19,
+          "mae": 14.391465372727296,
+          "rmse": 16.214418821263585,
+          "r2": 0.5889581491823463,
+          "pearson_r": 0.7674361029867799,
+          "spearman_r": 0.6972316398873478,
+          "mean_signed_error": 2.991758887410948e-15,
+          "median_signed_error": 0.06899160648940494,
+          "median_absolute_error": 14.300349961600205,
+          "error_sd": 16.658731738633495,
+          "tolerance_accuracy": 0.3157894736842105,
+          "tolerance_hits": 6,
+          "tolerance_total": 19
+        },
+        "isotonic": {
+          "n_patients": 19,
+          "mae": 10.087719298245615,
+          "rmse": 12.639571667181785,
+          "r2": 0.7502255666233579,
+          "pearson_r": 0.8661556249447082,
+          "spearman_r": 0.8227966573003564,
+          "mean_signed_error": 7.47939721852737e-16,
+          "median_signed_error": 0.0,
+          "median_absolute_error": 8.75,
+          "error_sd": 12.985925429450889,
+          "tolerance_accuracy": 0.631578947368421,
+          "tolerance_hits": 12,
+          "tolerance_total": 19
+        }
+      },
+      "scale_selected": "raw",
+      "scale_oof_scores": {
+        "raw": {
+          "n_patients": 19,
+          "mae": 15.611310925400048,
+          "rmse": 18.535245429510304,
+          "r2": 0.4628693302264273,
+          "pearson_r": 0.7674361029867801,
+          "spearman_r": 0.6972316398873478,
+          "mean_signed_error": 8.432746485659953,
+          "median_signed_error": 4.768122355143234,
+          "median_absolute_error": 14.4986572265625,
+          "error_sd": 16.958180731458647,
+          "tolerance_accuracy": 0.3157894736842105,
+          "tolerance_hits": 6,
+          "tolerance_total": 19
+        },
+        "clip": {
+          "n_patients": 19,
+          "mae": 15.611310925400048,
+          "rmse": 18.535245429510304,
+          "r2": 0.4628693302264273,
+          "pearson_r": 0.7674361029867801,
+          "spearman_r": 0.6972316398873478,
+          "mean_signed_error": 8.432746485659953,
+          "median_signed_error": 4.768122355143234,
+          "median_absolute_error": 14.4986572265625,
+          "error_sd": 16.958180731458647,
+          "tolerance_accuracy": 0.3157894736842105,
+          "tolerance_hits": 6,
+          "tolerance_total": 19
+        }
+      }
+    },
+    {
+      "outer_fold": 3,
+      "weighted": {
+        "objective": "OOF MAE; tie: OOF tolerance; tie: nearest uniform",
+        "oof_metrics": {
+          "n_patients": 20,
+          "mae": 10.206828308105468,
+          "rmse": 13.944282424001385,
+          "r2": 0.5195972518336901,
+          "pearson_r": 0.7257281301617828,
+          "spearman_r": 0.655043482655681,
+          "mean_signed_error": 1.435813522338868,
+          "median_signed_error": 0.9954185485839844,
+          "median_absolute_error": 6.538690567016602,
+          "error_sd": 14.230488094946109,
+          "tolerance_accuracy": 0.65,
+          "tolerance_hits": 13,
+          "tolerance_total": 20
+        },
+        "weights": {
+          "seed2024": 0.0,
+          "seed42": 0.0,
+          "seed1337": 1.0
+        }
+      },
+      "calibration_selected": "isotonic",
+      "calibration_oof_scores": {
+        "linear": {
+          "n_patients": 20,
+          "mae": 11.958527653620969,
+          "rmse": 15.286543204549197,
+          "r2": 0.4226599057577536,
+          "pearson_r": 0.6501229927927128,
+          "spearman_r": 0.5834457066444786,
+          "mean_signed_error": 1.0302869668521452e-14,
+          "median_signed_error": -1.683708433593047,
+          "median_absolute_error": 9.692548166100984,
+          "error_sd": 15.683662406081895,
+          "tolerance_accuracy": 0.5,
+          "tolerance_hits": 10,
+          "tolerance_total": 20
+        },
+        "ridge_alpha_1": {
+          "n_patients": 20,
+          "mae": 11.95878506257861,
+          "rmse": 15.286543489096939,
+          "r2": 0.4226598842642322,
+          "pearson_r": 0.6501229927927127,
+          "spearman_r": 0.5834457066444786,
+          "mean_signed_error": 1.3500311979441903e-14,
+          "median_signed_error": -1.6823139697260139,
+          "median_absolute_error": 9.69611284264564,
+          "error_sd": 15.68366269802172,
+          "tolerance_accuracy": 0.5,
+          "tolerance_hits": 10,
+          "tolerance_total": 20
+        },
+        "isotonic": {
+          "n_patients": 20,
+          "mae": 9.208333333333332,
+          "rmse": 11.688224130864935,
+          "r2": 0.6624716903438337,
+          "pearson_r": 0.8139236391356585,
+          "spearman_r": 0.7179806698976531,
+          "mean_signed_error": 3.552713678800501e-16,
+          "median_signed_error": -1.6666666666666643,
+          "median_absolute_error": 7.1875,
+          "error_sd": 11.991864932586738,
+          "tolerance_accuracy": 0.65,
+          "tolerance_hits": 13,
+          "tolerance_total": 20
+        }
+      },
+      "scale_selected": "raw",
+      "scale_oof_scores": {
+        "raw": {
+          "n_patients": 20,
+          "mae": 11.595289484659833,
+          "rmse": 15.59121081789937,
+          "r2": 0.39941728284575084,
+          "pearson_r": 0.6501229927927129,
+          "spearman_r": 0.5834457066444786,
+          "mean_signed_error": 2.476690101623534,
+          "median_signed_error": -0.062406857808429805,
+          "median_absolute_error": 5.85865910847982,
+          "error_sd": 15.793131781975498,
+          "tolerance_accuracy": 0.6,
+          "tolerance_hits": 12,
+          "tolerance_total": 20
+        },
+        "clip": {
+          "n_patients": 20,
+          "mae": 11.595289484659833,
+          "rmse": 15.59121081789937,
+          "r2": 0.39941728284575084,
+          "pearson_r": 0.6501229927927129,
+          "spearman_r": 0.5834457066444786,
+          "mean_signed_error": 2.476690101623534,
+          "median_signed_error": -0.062406857808429805,
+          "median_absolute_error": 5.85865910847982,
+          "error_sd": 15.793131781975498,
+          "tolerance_accuracy": 0.6,
+          "tolerance_hits": 12,
+          "tolerance_total": 20
+        }
+      }
+    }
+  ],
+  "calibrator_parameters": {
+    "linear": [
+      {
+        "outer_fold": 1,
+        "a": 0.9429632262469512,
+        "b": 0.7375707466379211
+      },
+      {
+        "outer_fold": 2,
+        "a": 1.1892172546802122,
+        "b": -22.626253265641708
+      },
+      {
+        "outer_fold": 3,
+        "a": 0.8784803603688486,
+        "b": 6.269891341368833
+      }
+    ],
+    "ridge_alpha_1": [
+      {
+        "outer_fold": 1,
+        "a": 0.9428609634198727,
+        "b": 0.7444828244034127,
+        "alpha": 1.0
+      },
+      {
+        "outer_fold": 2,
+        "a": 1.188982322225162,
+        "b": -22.608630584247095,
+        "alpha": 1.0
+      },
+      {
+        "outer_fold": 3,
+        "a": 0.8782822577038238,
+        "b": 6.284150115497624,
+        "alpha": 1.0
+      }
+    ],
+    "isotonic": [
+      {
+        "outer_fold": 1,
+        "model": "isotonic",
+        "n_thresholds": 11
+      },
+      {
+        "outer_fold": 2,
+        "model": "isotonic",
+        "n_thresholds": 10
+      },
+      {
+        "outer_fold": 3,
+        "model": "isotonic",
+        "n_thresholds": 11
+      }
+    ]
+  }
+}

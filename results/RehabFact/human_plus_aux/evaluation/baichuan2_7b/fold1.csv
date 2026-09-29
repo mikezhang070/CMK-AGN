@@ -1,0 +1,2 @@
+group,n,char_bleu1,char_bleu2,char_bleu3,char_bleu4,sacrebleu_zh,word_bleu1,word_bleu2,word_bleu3,word_bleu4,rouge1_f,rouge2_f,rougeL_f
+all,5.0000,60.0002,51.2099,44.2614,39.5652,34.5864,55.3512,43.2067,36.6453,32.0497,61.8054,37.8581,50.9687
