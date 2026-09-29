@@ -8,10 +8,6 @@
 
 本项目由珠海复旦创新研究院的医学人工智能科技创新中心研发团队开发。CMK-AGN 是一个三模态深度学习模型，将一次康复试次中同步采集的 **EEG · sEMG · IMU** 信号映射为四项相互独立的临床评分。各模态先经加权贝叶斯 DTW（EMG↔IMU）加线性重采样的 EEG 进行对齐，再由 CMK-AGN 主干网络融合；每个任务训练一个独立的输出头（不共享输出头，也不使用联合损失）。患者是唯一的评估单元，全部实验使用固定的患者级三折划分，严禁试次级随机划分。
 
-本包是真实 29 例临床数据上的**冻结研究发布版**：包含最终源代码、18 个经审计的 FMA/BI checkpoint、冻结数值结果、论文正文 Figure 1–11 成品图、可运行的绘图代码，以及三个实验入口脚本。已终止的探索性实验分支不属于本包。
-
-> **命名说明。** 模型对外名称为 **CMK-AGN**。出于向后兼容，Python 模块内部仍沿用旧标识符 `adk_mdfan`（例如 `src/models/adk_mdfan_tri.py`、类 `ADKMDFANTriBackbone`）。二者指的是同一套 CMK-AGN 架构。
-
 ---
 
 ## 临床任务
@@ -195,18 +191,6 @@ backbone; each task is trained with its own independent output head (no shared
 heads, no joint loss). The patient is the only evaluation unit: all
 experiments use the fixed patient-level three-fold split, and trial-level
 random splitting is strictly prohibited.
-
-This package is the **frozen research release** on the real 29-subject
-clinical cohort: final source code, 18 audited FMA/BI checkpoints, frozen
-numeric results, the manuscript's Figure 1–11 outputs, runnable
-figure-generation code, and three experiment entry scripts. Terminated
-exploratory branches are not part of this package.
-
-> **Naming note.** The public model name is **CMK-AGN**. For backward
-> compatibility, the Python modules still carry the legacy identifier
-> `adk_mdfan` (e.g. `src/models/adk_mdfan_tri.py`, class
-> `ADKMDFANTriBackbone`). Both refer to the same CMK-AGN architecture.
-
 ---
 
 ## Clinical Tasks
