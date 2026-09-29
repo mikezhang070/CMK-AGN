@@ -1,0 +1,271 @@
+﻿kind,variant,variant_label,task,metric,fold,value
+modality,eeg_emg,EEG + EMG,FMA_UE,mae,1,1.1630398869514464
+modality,eeg_emg,EEG + EMG,FMA_UE,mae,2,4.748113828897476
+modality,eeg_emg,EEG + EMG,FMA_UE,mae,3,3.3547988335291543
+modality,eeg_emg,EEG + EMG,FMA_UE,rmse,1,1.6028273401579956
+modality,eeg_emg,EEG + EMG,FMA_UE,rmse,2,7.449749061225205
+modality,eeg_emg,EEG + EMG,FMA_UE,rmse,3,4.637382811525274
+modality,eeg_emg,EEG + EMG,FMA_UE,r2,1,0.9511957545144766
+modality,eeg_emg,EEG + EMG,FMA_UE,r2,2,0.0670909215796634
+modality,eeg_emg,EEG + EMG,FMA_UE,r2,3,0.643046953567411
+modality,eeg_emg,EEG + EMG,FMA_UE,pearson_r,1,0.9797679355913156
+modality,eeg_emg,EEG + EMG,FMA_UE,pearson_r,2,0.5742049298415395
+modality,eeg_emg,EEG + EMG,FMA_UE,pearson_r,3,0.8615028147409828
+modality,eeg_emg,EEG + EMG,FMA_UE,spearman_r,1,0.9108770332470622
+modality,eeg_emg,EEG + EMG,FMA_UE,spearman_r,2,0.579279061653149
+modality,eeg_emg,EEG + EMG,FMA_UE,spearman_r,3,0.8619322310183948
+modality,eeg_imu,EEG + IMU,FMA_UE,mae,1,3.0116629600524902
+modality,eeg_imu,EEG + IMU,FMA_UE,mae,2,6.601127338409424
+modality,eeg_imu,EEG + IMU,FMA_UE,mae,3,3.29578216208352
+modality,eeg_imu,EEG + IMU,FMA_UE,rmse,1,5.898465768069917
+modality,eeg_imu,EEG + IMU,FMA_UE,rmse,2,9.018926596252962
+modality,eeg_imu,EEG + IMU,FMA_UE,rmse,3,5.699756339538697
+modality,eeg_imu,EEG + IMU,FMA_UE,r2,1,0.3390596805263558
+modality,eeg_imu,EEG + IMU,FMA_UE,r2,2,-0.3673060505731895
+modality,eeg_imu,EEG + IMU,FMA_UE,r2,3,0.4607653670616727
+modality,eeg_imu,EEG + IMU,FMA_UE,pearson_r,1,0.6959263576602431
+modality,eeg_imu,EEG + IMU,FMA_UE,pearson_r,2,0.5360839669241925
+modality,eeg_imu,EEG + IMU,FMA_UE,pearson_r,3,0.7630362281015067
+modality,eeg_imu,EEG + IMU,FMA_UE,spearman_r,1,0.6400757530925302
+modality,eeg_imu,EEG + IMU,FMA_UE,spearman_r,2,0.579279061653149
+modality,eeg_imu,EEG + IMU,FMA_UE,spearman_r,3,0.8619322310183948
+modality,emg_imu,EMG + IMU,FMA_UE,mae,1,5.085895109176636
+modality,emg_imu,EMG + IMU,FMA_UE,mae,2,7.367209148406983
+modality,emg_imu,EMG + IMU,FMA_UE,mae,3,8.312360237042109
+modality,emg_imu,EMG + IMU,FMA_UE,rmse,1,6.131936620055975
+modality,emg_imu,EMG + IMU,FMA_UE,rmse,2,10.260991449623347
+modality,emg_imu,EMG + IMU,FMA_UE,rmse,3,10.962379414916953
+modality,emg_imu,EMG + IMU,FMA_UE,r2,1,0.2857020001446906
+modality,emg_imu,EMG + IMU,FMA_UE,r2,2,-0.7698427555764575
+modality,emg_imu,EMG + IMU,FMA_UE,r2,3,-0.9946874502795472
+modality,emg_imu,EMG + IMU,FMA_UE,pearson_r,1,0.8409038804190401
+modality,emg_imu,EMG + IMU,FMA_UE,pearson_r,2,0.6337576337128075
+modality,emg_imu,EMG + IMU,FMA_UE,pearson_r,3,0.5637248053084759
+modality,emg_imu,EMG + IMU,FMA_UE,spearman_r,1,0.7385489458759963
+modality,emg_imu,EMG + IMU,FMA_UE,spearman_r,2,0.6585488279846325
+modality,emg_imu,EMG + IMU,FMA_UE,spearman_r,3,0.5523060897787772
+modality,eeg_only,EEG only,FMA_UE,mae,1,5.64673310816288
+modality,eeg_only,EEG only,FMA_UE,mae,2,7.462751865386963
+modality,eeg_only,EEG only,FMA_UE,mae,3,9.569148275587294
+modality,eeg_only,EEG only,FMA_UE,rmse,1,8.10358565156021
+modality,eeg_only,EEG only,FMA_UE,rmse,2,10.419820574180278
+modality,eeg_only,EEG only,FMA_UE,rmse,3,12.012773465031572
+modality,eeg_only,EEG only,FMA_UE,r2,1,-0.2474943087418786
+modality,eeg_only,EEG only,FMA_UE,r2,2,-0.8250573339739555
+modality,eeg_only,EEG only,FMA_UE,r2,3,-1.3952550885441597
+modality,eeg_only,EEG only,FMA_UE,pearson_r,1,0.4307025334219653
+modality,eeg_only,EEG only,FMA_UE,pearson_r,2,-0.1578405300996087
+modality,eeg_only,EEG only,FMA_UE,pearson_r,3,-0.2660152691087749
+modality,eeg_only,EEG only,FMA_UE,spearman_r,1,0.473902240270431
+modality,eeg_only,EEG only,FMA_UE,spearman_r,2,-0.2073209273284954
+modality,eeg_only,EEG only,FMA_UE,spearman_r,3,-0.2092068521889307
+modality,emg_only,EMG only,FMA_UE,mae,1,8.94536134004593
+modality,emg_only,EMG only,FMA_UE,mae,2,7.427024269104004
+modality,emg_only,EMG only,FMA_UE,mae,3,3.972170588043001
+modality,emg_only,EMG only,FMA_UE,rmse,1,11.01400373588677
+modality,emg_only,EMG only,FMA_UE,rmse,2,10.28481467868257
+modality,emg_only,EMG only,FMA_UE,rmse,3,6.301709669494677
+modality,emg_only,EMG only,FMA_UE,r2,1,-1.30448856941732
+modality,emg_only,EMG only,FMA_UE,r2,2,-0.778070482011169
+modality,emg_only,EMG only,FMA_UE,r2,3,0.3408534579002419
+modality,emg_only,EMG only,FMA_UE,pearson_r,1,0.6598203067171943
+modality,emg_only,EMG only,FMA_UE,pearson_r,2,0.6018572395803747
+modality,emg_only,EMG only,FMA_UE,pearson_r,3,0.6837595396669527
+modality,emg_only,EMG only,FMA_UE,spearman_r,1,0.5292934112111307
+modality,emg_only,EMG only,FMA_UE,spearman_r,2,0.5548883643203848
+modality,emg_only,EMG only,FMA_UE,spearman_r,3,0.7531446678801508
+modality,imu_only,IMU only,FMA_UE,mae,1,6.048940992355346
+modality,imu_only,IMU only,FMA_UE,mae,2,7.68007173538208
+modality,imu_only,IMU only,FMA_UE,mae,3,8.561327682601082
+modality,imu_only,IMU only,FMA_UE,rmse,1,7.222146489065548
+modality,imu_only,IMU only,FMA_UE,rmse,2,10.707039561486782
+modality,imu_only,IMU only,FMA_UE,rmse,3,11.307285875762853
+modality,imu_only,IMU only,FMA_UE,r2,1,0.0091299409285371
+modality,imu_only,IMU only,FMA_UE,r2,2,-0.9270582647712736
+modality,imu_only,IMU only,FMA_UE,r2,3,-1.1221786524537527
+modality,imu_only,IMU only,FMA_UE,pearson_r,1,0.4819664498643896
+modality,imu_only,IMU only,FMA_UE,pearson_r,2,-0.3928677130293962
+modality,imu_only,IMU only,FMA_UE,pearson_r,3,0.2708787752284072
+modality,imu_only,IMU only,FMA_UE,spearman_r,1,0.3631198983890315
+modality,imu_only,IMU only,FMA_UE,spearman_r,2,-0.3231767396591252
+modality,imu_only,IMU only,FMA_UE,spearman_r,3,0.3849406080276326
+modality,eeg_emg,EEG + EMG,BI,mae,1,12.762489318847656
+modality,eeg_emg,EEG + EMG,BI,mae,2,15.456328392028809
+modality,eeg_emg,EEG + EMG,BI,mae,3,16.889886220296223
+modality,eeg_emg,EEG + EMG,BI,rmse,1,15.943574612858043
+modality,eeg_emg,EEG + EMG,BI,rmse,2,20.512904060005894
+modality,eeg_emg,EEG + EMG,BI,rmse,3,20.60478781593885
+modality,eeg_emg,EEG + EMG,BI,r2,1,0.4091863534322567
+modality,eeg_emg,EEG + EMG,BI,r2,2,-0.1334120753535526
+modality,eeg_emg,EEG + EMG,BI,r2,3,0.4793468621327957
+modality,eeg_emg,EEG + EMG,BI,pearson_r,1,0.7367362170553133
+modality,eeg_emg,EEG + EMG,BI,pearson_r,2,0.510185634255754
+modality,eeg_emg,EEG + EMG,BI,pearson_r,3,0.9224622252574454
+modality,eeg_emg,EEG + EMG,BI,spearman_r,1,0.7877855422677295
+modality,eeg_emg,EEG + EMG,BI,spearman_r,2,0.5292934112111307
+modality,eeg_emg,EEG + EMG,BI,spearman_r,3,0.8991914132931391
+modality,eeg_imu,EEG + IMU,BI,mae,1,18.281074714660644
+modality,eeg_imu,EEG + IMU,BI,mae,2,11.859740829467771
+modality,eeg_imu,EEG + IMU,BI,mae,3,31.185213300916885
+modality,eeg_imu,EEG + IMU,BI,rmse,1,23.381374422496343
+modality,eeg_imu,EEG + IMU,BI,rmse,2,15.86241764784859
+modality,eeg_imu,EEG + IMU,BI,rmse,3,39.515029177961786
+modality,eeg_imu,EEG + IMU,BI,r2,1,-0.2706302612085214
+modality,eeg_imu,EEG + IMU,BI,r2,2,0.3222456737110346
+modality,eeg_imu,EEG + IMU,BI,r2,3,-0.9148590462641768
+modality,eeg_imu,EEG + IMU,BI,pearson_r,1,0.083639464305412
+modality,eeg_imu,EEG + IMU,BI,pearson_r,2,0.6097809707325385
+modality,eeg_imu,EEG + IMU,BI,pearson_r,3,0.0278124027903264
+modality,eeg_imu,EEG + IMU,BI,spearman_r,1,0.1477097891751992
+modality,eeg_imu,EEG + IMU,BI,spearman_r,2,0.4923659639173309
+modality,eeg_imu,EEG + IMU,BI,spearman_r,3,-0.0420182903408009
+modality,emg_imu,EMG + IMU,BI,mae,1,15.525712966918944
+modality,emg_imu,EMG + IMU,BI,mae,2,15.485911178588868
+modality,emg_imu,EMG + IMU,BI,mae,3,30.703197903103295
+modality,emg_imu,EMG + IMU,BI,rmse,1,19.894119879782743
+modality,emg_imu,EMG + IMU,BI,rmse,2,20.46595106068798
+modality,emg_imu,EMG + IMU,BI,rmse,3,39.93109858934055
+modality,emg_imu,EMG + IMU,BI,r2,1,0.0801254949653295
+modality,emg_imu,EMG + IMU,BI,r2,2,-0.1282293678612134
+modality,emg_imu,EMG + IMU,BI,r2,3,-0.9553959636439432
+modality,emg_imu,EMG + IMU,BI,pearson_r,1,0.8324955170238875
+modality,emg_imu,EMG + IMU,BI,pearson_r,2,0.8499694460473204
+modality,emg_imu,EMG + IMU,BI,pearson_r,3,0.4590707135345291
+modality,emg_imu,EMG + IMU,BI,spearman_r,1,0.7693218186208295
+modality,emg_imu,EMG + IMU,BI,spearman_r,2,0.6893123494842632
+modality,emg_imu,EMG + IMU,BI,spearman_r,3,0.5210268002259312
+modality,eeg_only,EEG only,BI,mae,1,16.12720890045166
+modality,eeg_only,EEG only,BI,mae,2,13.305916786193848
+modality,eeg_only,EEG only,BI,mae,3,22.448975880940758
+modality,eeg_only,EEG only,BI,rmse,1,20.719216797739453
+modality,eeg_only,EEG only,BI,rmse,2,20.43467253308561
+modality,eeg_only,EEG only,BI,rmse,3,27.53248911753653
+modality,eeg_only,EEG only,BI,r2,1,0.0022406863178878
+modality,eeg_only,EEG only,BI,r2,2,-0.124783411540589
+modality,eeg_only,EEG only,BI,r2,3,0.0703849429585363
+modality,eeg_only,EEG only,BI,pearson_r,1,0.6296298677348939
+modality,eeg_only,EEG only,BI,pearson_r,2,0.0720746558364345
+modality,eeg_only,EEG only,BI,pearson_r,3,0.2988425343403029
+modality,eeg_only,EEG only,BI,spearman_r,1,0.6893123494842632
+modality,eeg_only,EEG only,BI,spearman_r,2,0.270801280154532
+modality,eeg_only,EEG only,BI,spearman_r,3,-0.1680731613632036
+modality,emg_only,EMG only,BI,mae,1,17.07607307434082
+modality,emg_only,EMG only,BI,mae,2,15.492860031127927
+modality,emg_only,EMG only,BI,mae,3,29.280290391710068
+modality,emg_only,EMG only,BI,rmse,1,21.72459097521286
+modality,emg_only,EMG only,BI,rmse,2,20.551211079235184
+modality,emg_only,EMG only,BI,rmse,3,37.07016454773474
+modality,emg_only,EMG only,BI,r2,1,-0.0969386473917488
+modality,emg_only,EMG only,BI,r2,2,-0.1376492305004146
+modality,emg_only,EMG only,BI,r2,3,-0.685237926832498
+modality,emg_only,EMG only,BI,pearson_r,1,0.8523376031365765
+modality,emg_only,EMG only,BI,pearson_r,2,0.4238864876504795
+modality,emg_only,EMG only,BI,pearson_r,3,0.7281591652408608
+modality,emg_only,EMG only,BI,spearman_r,1,0.8370221386594626
+modality,emg_only,EMG only,BI,spearman_r,2,0.3631198983890315
+modality,emg_only,EMG only,BI,spearman_r,3,0.7143109357936152
+modality,imu_only,IMU only,BI,mae,1,21.65970497131348
+modality,imu_only,IMU only,BI,mae,2,15.879573249816897
+modality,imu_only,IMU only,BI,mae,3,29.666080898708767
+modality,imu_only,IMU only,BI,rmse,1,28.14583074375052
+modality,imu_only,IMU only,BI,rmse,2,21.03159525067093
+modality,imu_only,IMU only,BI,rmse,3,37.60352935782258
+modality,imu_only,IMU only,BI,r2,1,-0.8412267013500332
+modality,imu_only,IMU only,BI,r2,2,-0.1914558889913642
+modality,imu_only,IMU only,BI,r2,3,-0.7340811360080939
+modality,imu_only,IMU only,BI,pearson_r,1,-0.492439896734293
+modality,imu_only,IMU only,BI,pearson_r,2,-0.3334210777645006
+modality,imu_only,IMU only,BI,pearson_r,3,0.0169895082536364
+modality,imu_only,IMU only,BI,spearman_r,1,-0.3754290474869648
+modality,imu_only,IMU only,BI,spearman_r,2,-0.2215646837627989
+modality,imu_only,IMU only,BI,spearman_r,3,0.1848804774995239
+module,wo_mdfan,w/o MDFAN,FMA_UE,mae,1,5.217491900920868
+module,wo_mdfan,w/o MDFAN,FMA_UE,mae,2,5.883059930801392
+module,wo_mdfan,w/o MDFAN,FMA_UE,mae,3,3.98300282160441
+module,wo_mdfan,w/o MDFAN,FMA_UE,rmse,1,7.9713068134545395
+module,wo_mdfan,w/o MDFAN,FMA_UE,rmse,2,7.822981482322817
+module,wo_mdfan,w/o MDFAN,FMA_UE,rmse,3,6.395238917619471
+module,wo_mdfan,w/o MDFAN,FMA_UE,r2,1,-0.2070997780058274
+module,wo_mdfan,w/o MDFAN,FMA_UE,r2,2,-0.0287281773872196
+module,wo_mdfan,w/o MDFAN,FMA_UE,r2,3,0.3211423061704493
+module,wo_mdfan,w/o MDFAN,FMA_UE,pearson_r,1,0.442632259967619
+module,wo_mdfan,w/o MDFAN,FMA_UE,pearson_r,2,0.3345046653334144
+module,wo_mdfan,w/o MDFAN,FMA_UE,pearson_r,3,0.6094165704292583
+module,wo_mdfan,w/o MDFAN,FMA_UE,spearman_r,1,0.4800568148193976
+module,wo_mdfan,w/o MDFAN,FMA_UE,spearman_r,2,0.3292744139923163
+module,wo_mdfan,w/o MDFAN,FMA_UE,spearman_r,3,0.5941474602165634
+module,wo_trialign,w/o TriAlign,FMA_UE,mae,1,2.2295384109020238
+module,wo_trialign,w/o TriAlign,FMA_UE,mae,2,5.376468777656555
+module,wo_trialign,w/o TriAlign,FMA_UE,mae,3,1.4291516807344224
+module,wo_trialign,w/o TriAlign,FMA_UE,rmse,1,3.9083607235590025
+module,wo_trialign,w/o TriAlign,FMA_UE,rmse,2,7.360981626397015
+module,wo_trialign,w/o TriAlign,FMA_UE,rmse,3,2.3735076790817606
+module,wo_trialign,w/o TriAlign,FMA_UE,r2,1,0.7098160420695546
+module,wo_trialign,w/o TriAlign,FMA_UE,r2,2,0.0891906117977063
+module,wo_trialign,w/o TriAlign,FMA_UE,r2,3,0.9064924928451912
+module,wo_trialign,w/o TriAlign,FMA_UE,pearson_r,1,0.8497948772022894
+module,wo_trialign,w/o TriAlign,FMA_UE,pearson_r,2,0.4766090697176995
+module,wo_trialign,w/o TriAlign,FMA_UE,pearson_r,3,0.9619533755080344
+module,wo_trialign,w/o TriAlign,FMA_UE,spearman_r,1,0.8862587350511957
+module,wo_trialign,w/o TriAlign,FMA_UE,spearman_r,2,0.5122046439880474
+module,wo_trialign,w/o TriAlign,FMA_UE,spearman_r,3,0.9288784237188524
+module,wo_wbydtw,w/o W-DTW,FMA_UE,mae,1,1.976276046037674
+module,wo_wbydtw,w/o W-DTW,FMA_UE,mae,2,4.78569204211235
+module,wo_wbydtw,w/o W-DTW,FMA_UE,mae,3,1.2572508288754358
+module,wo_wbydtw,w/o W-DTW,FMA_UE,rmse,1,3.3026162697902253
+module,wo_wbydtw,w/o W-DTW,FMA_UE,rmse,2,6.612191565744496
+module,wo_wbydtw,w/o W-DTW,FMA_UE,rmse,3,2.0149475112348405
+module,wo_wbydtw,w/o W-DTW,FMA_UE,r2,1,0.7927949425250171
+module,wo_wbydtw,w/o W-DTW,FMA_UE,r2,2,0.2650684602100749
+module,wo_wbydtw,w/o W-DTW,FMA_UE,r2,3,0.9326104321074692
+module,wo_wbydtw,w/o W-DTW,FMA_UE,pearson_r,1,0.8944948747944298
+module,wo_wbydtw,w/o W-DTW,FMA_UE,pearson_r,2,0.6269697753289916
+module,wo_wbydtw,w/o W-DTW,FMA_UE,pearson_r,3,0.973601565694519
+module,wo_wbydtw,w/o W-DTW,FMA_UE,spearman_r,1,0.8370221386594626
+module,wo_wbydtw,w/o W-DTW,FMA_UE,spearman_r,2,0.6158651076522952
+module,wo_wbydtw,w/o W-DTW,FMA_UE,spearman_r,3,0.9456149718939671
+module,wo_mdfan,w/o MDFAN,BI,mae,1,15.115452194213868
+module,wo_mdfan,w/o MDFAN,BI,mae,2,10.786655807495118
+module,wo_mdfan,w/o MDFAN,BI,mae,3,25.965872234768337
+module,wo_mdfan,w/o MDFAN,BI,rmse,1,20.050064690891105
+module,wo_mdfan,w/o MDFAN,BI,rmse,2,14.829174573722732
+module,wo_mdfan,w/o MDFAN,BI,rmse,3,29.375435727045367
+module,wo_mdfan,w/o MDFAN,BI,r2,1,0.0656476604092544
+module,wo_mdfan,w/o MDFAN,BI,r2,2,0.407664865891058
+module,wo_mdfan,w/o MDFAN,BI,r2,3,-0.0582318570243096
+module,wo_mdfan,w/o MDFAN,BI,pearson_r,1,0.3886965843594751
+module,wo_mdfan,w/o MDFAN,BI,pearson_r,2,0.6434374917859027
+module,wo_mdfan,w/o MDFAN,BI,pearson_r,3,0.2124617643602372
+module,wo_mdfan,w/o MDFAN,BI,spearman_r,1,0.3938927711338647
+module,wo_mdfan,w/o MDFAN,BI,spearman_r,2,0.7754763931697962
+module,wo_mdfan,w/o MDFAN,BI,spearman_r,3,0.0336146322726407
+module,wo_trialign,w/o TriAlign,BI,mae,1,16.609083366394042
+module,wo_trialign,w/o TriAlign,BI,mae,2,15.421027374267576
+module,wo_trialign,w/o TriAlign,BI,mae,3,19.123340394761826
+module,wo_trialign,w/o TriAlign,BI,rmse,1,21.01642897322809
+module,wo_trialign,w/o TriAlign,BI,rmse,2,20.41109675759773
+module,wo_trialign,w/o TriAlign,BI,rmse,3,19.98087552127838
+module,wo_trialign,w/o TriAlign,BI,r2,1,-0.0265898588884163
+module,wo_trialign,w/o TriAlign,BI,r2,2,-0.1221895511057686
+module,wo_trialign,w/o TriAlign,BI,r2,3,0.5104002072014753
+module,wo_trialign,w/o TriAlign,BI,pearson_r,1,0.4457694821387966
+module,wo_trialign,w/o TriAlign,BI,pearson_r,2,0.5000212101755162
+module,wo_trialign,w/o TriAlign,BI,pearson_r,3,0.8038523891561838
+module,wo_trialign,w/o TriAlign,BI,spearman_r,1,0.6031483057987304
+module,wo_trialign,w/o TriAlign,BI,spearman_r,2,0.67700320038633
+module,wo_trialign,w/o TriAlign,BI,spearman_r,3,0.6890999615891347
+module,wo_wbydtw,w/o W-DTW,BI,mae,1,16.60987033843994
+module,wo_wbydtw,w/o W-DTW,BI,mae,2,15.421011543273924
+module,wo_wbydtw,w/o W-DTW,BI,mae,3,19.031084908379448
+module,wo_wbydtw,w/o W-DTW,BI,rmse,1,21.01698358439385
+module,wo_wbydtw,w/o W-DTW,BI,rmse,2,20.411086116243936
+module,wo_wbydtw,w/o W-DTW,BI,rmse,3,20.56854971471018
+module,wo_wbydtw,w/o W-DTW,BI,r2,1,-0.0266440418051843
+module,wo_wbydtw,w/o W-DTW,BI,r2,2,-0.1221883809958948
+module,wo_wbydtw,w/o W-DTW,BI,r2,3,0.4811766203378221
+module,wo_wbydtw,w/o W-DTW,BI,pearson_r,1,0.4457788778328203
+module,wo_wbydtw,w/o W-DTW,BI,pearson_r,2,0.5003234145511752
+module,wo_wbydtw,w/o W-DTW,BI,pearson_r,3,0.7382635502985238
+module,wo_wbydtw,w/o W-DTW,BI,spearman_r,1,0.6031483057987304
+module,wo_wbydtw,w/o W-DTW,BI,spearman_r,2,0.67700320038633
+module,wo_wbydtw,w/o W-DTW,BI,spearman_r,3,0.6890999615891347

@@ -1,0 +1,13 @@
+# Runtime requirements for BDF/EMG real-case training on Linux.
+# Install a CUDA-compatible torch build separately when GPU training is used.
+numpy
+pandas
+scipy
+scikit-learn
+torch
+mne>=1.6
+pyedflib>=0.1.36
+matplotlib
+statsmodels
+xgboost>=1.7
+joblib>=1.2

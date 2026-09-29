@@ -1,0 +1,217 @@
+﻿kind,variant,variant_label,task,metric,fold,value
+modality,eeg_emg,EEG + EMG,hand_tone,accuracy,1,0.9
+modality,eeg_emg,EEG + EMG,hand_tone,accuracy,2,0.9
+modality,eeg_emg,EEG + EMG,hand_tone,accuracy,3,0.8888888888888888
+modality,eeg_emg,EEG + EMG,hand_tone,macro_f1,1,0.3235294117647059
+modality,eeg_emg,EEG + EMG,hand_tone,macro_f1,2,0.1578947368421052
+modality,eeg_emg,EEG + EMG,hand_tone,macro_f1,3,0.2666666666666666
+modality,eeg_emg,EEG + EMG,hand_tone,cohen_kappa,1,0.6296296296296297
+modality,eeg_emg,EEG + EMG,hand_tone,cohen_kappa,2,0.0
+modality,eeg_emg,EEG + EMG,hand_tone,cohen_kappa,3,0.6086956521739131
+modality,eeg_emg,EEG + EMG,hand_tone,weighted_kappa,1,0.7727272727272727
+modality,eeg_emg,EEG + EMG,hand_tone,weighted_kappa,2,0.0
+modality,eeg_emg,EEG + EMG,hand_tone,weighted_kappa,3,0.6086956521739131
+modality,eeg_imu,EEG + IMU,hand_tone,accuracy,1,0.8
+modality,eeg_imu,EEG + IMU,hand_tone,accuracy,2,0.9
+modality,eeg_imu,EEG + IMU,hand_tone,accuracy,3,0.7777777777777778
+modality,eeg_imu,EEG + IMU,hand_tone,macro_f1,1,0.1481481481481481
+modality,eeg_imu,EEG + IMU,hand_tone,macro_f1,2,0.1578947368421052
+modality,eeg_imu,EEG + IMU,hand_tone,macro_f1,3,0.1458333333333333
+modality,eeg_imu,EEG + IMU,hand_tone,cohen_kappa,1,0.0
+modality,eeg_imu,EEG + IMU,hand_tone,cohen_kappa,2,0.0
+modality,eeg_imu,EEG + IMU,hand_tone,cohen_kappa,3,0.0
+modality,eeg_imu,EEG + IMU,hand_tone,weighted_kappa,1,0.0
+modality,eeg_imu,EEG + IMU,hand_tone,weighted_kappa,2,0.0
+modality,eeg_imu,EEG + IMU,hand_tone,weighted_kappa,3,0.0
+modality,emg_imu,EMG + IMU,hand_tone,accuracy,1,0.8
+modality,emg_imu,EMG + IMU,hand_tone,accuracy,2,0.9
+modality,emg_imu,EMG + IMU,hand_tone,accuracy,3,0.7777777777777778
+modality,emg_imu,EMG + IMU,hand_tone,macro_f1,1,0.1481481481481481
+modality,emg_imu,EMG + IMU,hand_tone,macro_f1,2,0.1578947368421052
+modality,emg_imu,EMG + IMU,hand_tone,macro_f1,3,0.1458333333333333
+modality,emg_imu,EMG + IMU,hand_tone,cohen_kappa,1,0.0
+modality,emg_imu,EMG + IMU,hand_tone,cohen_kappa,2,0.0
+modality,emg_imu,EMG + IMU,hand_tone,cohen_kappa,3,0.0
+modality,emg_imu,EMG + IMU,hand_tone,weighted_kappa,1,0.0
+modality,emg_imu,EMG + IMU,hand_tone,weighted_kappa,2,0.0
+modality,emg_imu,EMG + IMU,hand_tone,weighted_kappa,3,0.0
+modality,eeg_only,EEG only,hand_tone,accuracy,1,0.8
+modality,eeg_only,EEG only,hand_tone,accuracy,2,0.9
+modality,eeg_only,EEG only,hand_tone,accuracy,3,0.8888888888888888
+modality,eeg_only,EEG only,hand_tone,macro_f1,1,0.1481481481481481
+modality,eeg_only,EEG only,hand_tone,macro_f1,2,0.1578947368421052
+modality,eeg_only,EEG only,hand_tone,macro_f1,3,0.2666666666666666
+modality,eeg_only,EEG only,hand_tone,cohen_kappa,1,0.0
+modality,eeg_only,EEG only,hand_tone,cohen_kappa,2,0.0
+modality,eeg_only,EEG only,hand_tone,cohen_kappa,3,0.6086956521739131
+modality,eeg_only,EEG only,hand_tone,weighted_kappa,1,0.0
+modality,eeg_only,EEG only,hand_tone,weighted_kappa,2,0.0
+modality,eeg_only,EEG only,hand_tone,weighted_kappa,3,0.6086956521739131
+modality,emg_only,EMG only,hand_tone,accuracy,1,0.8
+modality,emg_only,EMG only,hand_tone,accuracy,2,0.9
+modality,emg_only,EMG only,hand_tone,accuracy,3,0.7777777777777778
+modality,emg_only,EMG only,hand_tone,macro_f1,1,0.1481481481481481
+modality,emg_only,EMG only,hand_tone,macro_f1,2,0.1578947368421052
+modality,emg_only,EMG only,hand_tone,macro_f1,3,0.1458333333333333
+modality,emg_only,EMG only,hand_tone,cohen_kappa,1,0.0
+modality,emg_only,EMG only,hand_tone,cohen_kappa,2,0.0
+modality,emg_only,EMG only,hand_tone,cohen_kappa,3,0.0
+modality,emg_only,EMG only,hand_tone,weighted_kappa,1,0.0
+modality,emg_only,EMG only,hand_tone,weighted_kappa,2,0.0
+modality,emg_only,EMG only,hand_tone,weighted_kappa,3,0.0
+modality,imu_only,IMU only,hand_tone,accuracy,1,0.8
+modality,imu_only,IMU only,hand_tone,accuracy,2,0.9
+modality,imu_only,IMU only,hand_tone,accuracy,3,0.7777777777777778
+modality,imu_only,IMU only,hand_tone,macro_f1,1,0.1481481481481481
+modality,imu_only,IMU only,hand_tone,macro_f1,2,0.1578947368421052
+modality,imu_only,IMU only,hand_tone,macro_f1,3,0.1458333333333333
+modality,imu_only,IMU only,hand_tone,cohen_kappa,1,0.0
+modality,imu_only,IMU only,hand_tone,cohen_kappa,2,0.0
+modality,imu_only,IMU only,hand_tone,cohen_kappa,3,0.0
+modality,imu_only,IMU only,hand_tone,weighted_kappa,1,0.0
+modality,imu_only,IMU only,hand_tone,weighted_kappa,2,0.0
+modality,imu_only,IMU only,hand_tone,weighted_kappa,3,0.0
+modality,eeg_emg,EEG + EMG,hand_function,accuracy,1,0.6
+modality,eeg_emg,EEG + EMG,hand_function,accuracy,2,0.5
+modality,eeg_emg,EEG + EMG,hand_function,accuracy,3,0.5555555555555556
+modality,eeg_emg,EEG + EMG,hand_function,macro_f1,1,0.2393162393162393
+modality,eeg_emg,EEG + EMG,hand_function,macro_f1,2,0.1111111111111111
+modality,eeg_emg,EEG + EMG,hand_function,macro_f1,3,0.3206349206349206
+modality,eeg_emg,EEG + EMG,hand_function,cohen_kappa,1,0.3103448275862069
+modality,eeg_emg,EEG + EMG,hand_function,cohen_kappa,2,0.0
+modality,eeg_emg,EEG + EMG,hand_function,cohen_kappa,3,0.4
+modality,eeg_emg,EEG + EMG,hand_function,weighted_kappa,1,0.4736842105263158
+modality,eeg_emg,EEG + EMG,hand_function,weighted_kappa,2,0.0
+modality,eeg_emg,EEG + EMG,hand_function,weighted_kappa,3,0.6218487394957983
+modality,eeg_imu,EEG + IMU,hand_function,accuracy,1,0.6
+modality,eeg_imu,EEG + IMU,hand_function,accuracy,2,0.5
+modality,eeg_imu,EEG + IMU,hand_function,accuracy,3,0.3333333333333333
+modality,eeg_imu,EEG + IMU,hand_function,macro_f1,1,0.2857142857142857
+modality,eeg_imu,EEG + IMU,hand_function,macro_f1,2,0.1111111111111111
+modality,eeg_imu,EEG + IMU,hand_function,macro_f1,3,0.0833333333333333
+modality,eeg_imu,EEG + IMU,hand_function,cohen_kappa,1,0.2592592592592593
+modality,eeg_imu,EEG + IMU,hand_function,cohen_kappa,2,0.0
+modality,eeg_imu,EEG + IMU,hand_function,cohen_kappa,3,0.0
+modality,eeg_imu,EEG + IMU,hand_function,weighted_kappa,1,0.2465753424657535
+modality,eeg_imu,EEG + IMU,hand_function,weighted_kappa,2,0.0
+modality,eeg_imu,EEG + IMU,hand_function,weighted_kappa,3,0.0
+modality,emg_imu,EMG + IMU,hand_function,accuracy,1,0.5
+modality,emg_imu,EMG + IMU,hand_function,accuracy,2,0.5
+modality,emg_imu,EMG + IMU,hand_function,accuracy,3,0.3333333333333333
+modality,emg_imu,EMG + IMU,hand_function,macro_f1,1,0.1111111111111111
+modality,emg_imu,EMG + IMU,hand_function,macro_f1,2,0.1111111111111111
+modality,emg_imu,EMG + IMU,hand_function,macro_f1,3,0.0833333333333333
+modality,emg_imu,EMG + IMU,hand_function,cohen_kappa,1,0.0
+modality,emg_imu,EMG + IMU,hand_function,cohen_kappa,2,0.0
+modality,emg_imu,EMG + IMU,hand_function,cohen_kappa,3,0.0
+modality,emg_imu,EMG + IMU,hand_function,weighted_kappa,1,0.0
+modality,emg_imu,EMG + IMU,hand_function,weighted_kappa,2,0.0
+modality,emg_imu,EMG + IMU,hand_function,weighted_kappa,3,0.0
+modality,eeg_only,EEG only,hand_function,accuracy,1,0.5
+modality,eeg_only,EEG only,hand_function,accuracy,2,0.5
+modality,eeg_only,EEG only,hand_function,accuracy,3,0.3333333333333333
+modality,eeg_only,EEG only,hand_function,macro_f1,1,0.1111111111111111
+modality,eeg_only,EEG only,hand_function,macro_f1,2,0.1111111111111111
+modality,eeg_only,EEG only,hand_function,macro_f1,3,0.0833333333333333
+modality,eeg_only,EEG only,hand_function,cohen_kappa,1,0.0
+modality,eeg_only,EEG only,hand_function,cohen_kappa,2,0.0
+modality,eeg_only,EEG only,hand_function,cohen_kappa,3,0.0
+modality,eeg_only,EEG only,hand_function,weighted_kappa,1,0.0
+modality,eeg_only,EEG only,hand_function,weighted_kappa,2,0.0
+modality,eeg_only,EEG only,hand_function,weighted_kappa,3,0.0
+modality,emg_only,EMG only,hand_function,accuracy,1,0.6
+modality,emg_only,EMG only,hand_function,accuracy,2,0.5
+modality,emg_only,EMG only,hand_function,accuracy,3,0.5555555555555556
+modality,emg_only,EMG only,hand_function,macro_f1,1,0.2857142857142857
+modality,emg_only,EMG only,hand_function,macro_f1,2,0.1282051282051282
+modality,emg_only,EMG only,hand_function,macro_f1,3,0.236111111111111
+modality,emg_only,EMG only,hand_function,cohen_kappa,1,0.2592592592592592
+modality,emg_only,EMG only,hand_function,cohen_kappa,2,0.1379310344827586
+modality,emg_only,EMG only,hand_function,cohen_kappa,3,0.3793103448275862
+modality,emg_only,EMG only,hand_function,weighted_kappa,1,0.1549295774647886
+modality,emg_only,EMG only,hand_function,weighted_kappa,2,0.406779661016949
+modality,emg_only,EMG only,hand_function,weighted_kappa,3,0.4705882352941176
+modality,imu_only,IMU only,hand_function,accuracy,1,0.5
+modality,imu_only,IMU only,hand_function,accuracy,2,0.5
+modality,imu_only,IMU only,hand_function,accuracy,3,0.3333333333333333
+modality,imu_only,IMU only,hand_function,macro_f1,1,0.1111111111111111
+modality,imu_only,IMU only,hand_function,macro_f1,2,0.1111111111111111
+modality,imu_only,IMU only,hand_function,macro_f1,3,0.0833333333333333
+modality,imu_only,IMU only,hand_function,cohen_kappa,1,0.0
+modality,imu_only,IMU only,hand_function,cohen_kappa,2,0.0
+modality,imu_only,IMU only,hand_function,cohen_kappa,3,0.0
+modality,imu_only,IMU only,hand_function,weighted_kappa,1,0.0
+modality,imu_only,IMU only,hand_function,weighted_kappa,2,0.0
+modality,imu_only,IMU only,hand_function,weighted_kappa,3,0.0
+module,wo_mdfan,w/o MDFAN,hand_tone,accuracy,1,0.8
+module,wo_mdfan,w/o MDFAN,hand_tone,accuracy,2,0.9
+module,wo_mdfan,w/o MDFAN,hand_tone,accuracy,3,0.7777777777777778
+module,wo_mdfan,w/o MDFAN,hand_tone,macro_f1,1,0.1481481481481481
+module,wo_mdfan,w/o MDFAN,hand_tone,macro_f1,2,0.1578947368421052
+module,wo_mdfan,w/o MDFAN,hand_tone,macro_f1,3,0.1458333333333333
+module,wo_mdfan,w/o MDFAN,hand_tone,cohen_kappa,1,0.0
+module,wo_mdfan,w/o MDFAN,hand_tone,cohen_kappa,2,0.0
+module,wo_mdfan,w/o MDFAN,hand_tone,cohen_kappa,3,0.0
+module,wo_mdfan,w/o MDFAN,hand_tone,weighted_kappa,1,0.0
+module,wo_mdfan,w/o MDFAN,hand_tone,weighted_kappa,2,0.0
+module,wo_mdfan,w/o MDFAN,hand_tone,weighted_kappa,3,0.0
+module,wo_trialign,w/o TriAlign,hand_tone,accuracy,1,0.8
+module,wo_trialign,w/o TriAlign,hand_tone,accuracy,2,0.9
+module,wo_trialign,w/o TriAlign,hand_tone,accuracy,3,0.8888888888888888
+module,wo_trialign,w/o TriAlign,hand_tone,macro_f1,1,0.1481481481481481
+module,wo_trialign,w/o TriAlign,hand_tone,macro_f1,2,0.1578947368421052
+module,wo_trialign,w/o TriAlign,hand_tone,macro_f1,3,0.2666666666666666
+module,wo_trialign,w/o TriAlign,hand_tone,cohen_kappa,1,0.0
+module,wo_trialign,w/o TriAlign,hand_tone,cohen_kappa,2,0.0
+module,wo_trialign,w/o TriAlign,hand_tone,cohen_kappa,3,0.6086956521739131
+module,wo_trialign,w/o TriAlign,hand_tone,weighted_kappa,1,0.0
+module,wo_trialign,w/o TriAlign,hand_tone,weighted_kappa,2,0.0
+module,wo_trialign,w/o TriAlign,hand_tone,weighted_kappa,3,0.6086956521739131
+module,wo_wbydtw,w/o W-DTW,hand_tone,accuracy,1,0.8
+module,wo_wbydtw,w/o W-DTW,hand_tone,accuracy,2,0.9
+module,wo_wbydtw,w/o W-DTW,hand_tone,accuracy,3,0.8888888888888888
+module,wo_wbydtw,w/o W-DTW,hand_tone,macro_f1,1,0.1481481481481481
+module,wo_wbydtw,w/o W-DTW,hand_tone,macro_f1,2,0.1578947368421052
+module,wo_wbydtw,w/o W-DTW,hand_tone,macro_f1,3,0.2666666666666666
+module,wo_wbydtw,w/o W-DTW,hand_tone,cohen_kappa,1,0.0
+module,wo_wbydtw,w/o W-DTW,hand_tone,cohen_kappa,2,0.0
+module,wo_wbydtw,w/o W-DTW,hand_tone,cohen_kappa,3,0.6086956521739131
+module,wo_wbydtw,w/o W-DTW,hand_tone,weighted_kappa,1,0.0
+module,wo_wbydtw,w/o W-DTW,hand_tone,weighted_kappa,2,0.0
+module,wo_wbydtw,w/o W-DTW,hand_tone,weighted_kappa,3,0.6086956521739131
+module,wo_mdfan,w/o MDFAN,hand_function,accuracy,1,0.5
+module,wo_mdfan,w/o MDFAN,hand_function,accuracy,2,0.5
+module,wo_mdfan,w/o MDFAN,hand_function,accuracy,3,0.3333333333333333
+module,wo_mdfan,w/o MDFAN,hand_function,macro_f1,1,0.1111111111111111
+module,wo_mdfan,w/o MDFAN,hand_function,macro_f1,2,0.1111111111111111
+module,wo_mdfan,w/o MDFAN,hand_function,macro_f1,3,0.0833333333333333
+module,wo_mdfan,w/o MDFAN,hand_function,cohen_kappa,1,0.0
+module,wo_mdfan,w/o MDFAN,hand_function,cohen_kappa,2,0.0
+module,wo_mdfan,w/o MDFAN,hand_function,cohen_kappa,3,0.0
+module,wo_mdfan,w/o MDFAN,hand_function,weighted_kappa,1,0.0
+module,wo_mdfan,w/o MDFAN,hand_function,weighted_kappa,2,0.0
+module,wo_mdfan,w/o MDFAN,hand_function,weighted_kappa,3,0.0
+module,wo_trialign,w/o TriAlign,hand_function,accuracy,1,0.8
+module,wo_trialign,w/o TriAlign,hand_function,accuracy,2,0.6
+module,wo_trialign,w/o TriAlign,hand_function,accuracy,3,0.5555555555555556
+module,wo_trialign,w/o TriAlign,hand_function,macro_f1,1,0.5959595959595959
+module,wo_trialign,w/o TriAlign,hand_function,macro_f1,2,0.3055555555555556
+module,wo_trialign,w/o TriAlign,hand_function,macro_f1,3,0.3888888888888888
+module,wo_trialign,w/o TriAlign,hand_function,cohen_kappa,1,0.6969696969696969
+module,wo_trialign,w/o TriAlign,hand_function,cohen_kappa,2,0.365079365079365
+module,wo_trialign,w/o TriAlign,hand_function,cohen_kappa,3,0.3999999999999999
+module,wo_trialign,w/o TriAlign,hand_function,weighted_kappa,1,0.8901098901098901
+module,wo_trialign,w/o TriAlign,hand_function,weighted_kappa,2,0.7023809523809523
+module,wo_trialign,w/o TriAlign,hand_function,weighted_kappa,3,0.6666666666666667
+module,wo_wbydtw,w/o W-DTW,hand_function,accuracy,1,0.8
+module,wo_wbydtw,w/o W-DTW,hand_function,accuracy,2,0.6
+module,wo_wbydtw,w/o W-DTW,hand_function,accuracy,3,0.5555555555555556
+module,wo_wbydtw,w/o W-DTW,hand_function,macro_f1,1,0.7037037037037036
+module,wo_wbydtw,w/o W-DTW,hand_function,macro_f1,2,0.3055555555555556
+module,wo_wbydtw,w/o W-DTW,hand_function,macro_f1,3,0.3888888888888888
+module,wo_wbydtw,w/o W-DTW,hand_function,cohen_kappa,1,0.7297297297297298
+module,wo_wbydtw,w/o W-DTW,hand_function,cohen_kappa,2,0.365079365079365
+module,wo_wbydtw,w/o W-DTW,hand_function,cohen_kappa,3,0.3999999999999999
+module,wo_wbydtw,w/o W-DTW,hand_function,weighted_kappa,1,0.8901098901098901
+module,wo_wbydtw,w/o W-DTW,hand_function,weighted_kappa,2,0.7023809523809523
+module,wo_wbydtw,w/o W-DTW,hand_function,weighted_kappa,3,0.6666666666666667

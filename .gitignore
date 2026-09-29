@@ -1,0 +1,8 @@
+.venv/
+.aligned_cache/
+data/llm_real_text/
+results/llm/
+results/
+__pycache__/
+*.py[cod]
+.DS_Store
