@@ -92,22 +92,6 @@ MANIFEST=/secure/authorized/samples_manifest_real_archive.csv \
 
 Baichuan2-7B-Chat 以 4.80 的 char-BLEU4 优势胜过亚军 Qwen3-8B。选中后，RehabFact 继续完成 `human_only`（仅医生文本训练）与 `human_plus_aux`（加入仅训练侧的规则辅助文本）的辅助文本消融（`results/RehabFact/aux_ablation_summary.csv`）：char-BLEU4 从 32.55 提升至 37.28，ROUGE-L F 从 44.29 提升至 48.15，事实正确率与安全性核查项保持 1.0。
 
-```bash
-# 重新运行固定六模型对比（写入 runs/，不覆盖冻结结果）：
-CORPUS=/secure/authorized/patient_rehab_29subjects.json \
-  bash scripts/run_rehabfact_six_llm_experiment.sh run
-
-# 从既有评估树重建汇总：
-RUN_ROOT=runs/rehabfact_six_model_comparison \
-  bash scripts/run_rehabfact_six_llm_experiment.sh aggregate
-
-# 从服务器原始 results/llm 导出历史评估证据（默认不含逐病例文本）：
-SOURCE_RESULTS_ROOT=results/llm \
-  bash scripts/run_rehabfact_six_llm_experiment.sh export-existing
-```
-
-六模型选择实验的完整数值证据随包发布：排行榜与逐折评估报告在 `results/RehabFact/six_model_comparison/evaluation/`（`summary.csv`、`mean.csv`、`best_model.json` 及各模型 `fold*.json/csv`），候选集、逐折 adapter 盘点与选择溯源在其上级目录。LoRA adapter 权重与逐病例预测文本不随包发布。`src/llm/README.md` 记录该模块的数据隔离与防泄漏约束。
-
 ---
 
 ## 目录结构
@@ -285,29 +269,6 @@ between `human_only` (trained on clinician text only) and `human_plus_aux`
 (`results/RehabFact/aux_ablation_summary.csv`): char-BLEU4 improved from
 32.55 to 37.28 and ROUGE-L F from 44.29 to 48.15, with fact-correctness and
 safety checks held at 1.0.
-
-```bash
-# Rerun the fixed six-model comparison (writes to runs/, never overwrites frozen results):
-CORPUS=/secure/authorized/patient_rehab_29subjects.json \
-  bash scripts/run_rehabfact_six_llm_experiment.sh run
-
-# Rebuild summaries from an existing evaluation tree:
-RUN_ROOT=runs/rehabfact_six_model_comparison \
-  bash scripts/run_rehabfact_six_llm_experiment.sh aggregate
-
-# Export the historical server-side results/llm evidence (per-case text excluded by default):
-SOURCE_RESULTS_ROOT=results/llm \
-  bash scripts/run_rehabfact_six_llm_experiment.sh export-existing
-```
-
-The complete numeric evidence of the selection experiment ships with this
-package: the leaderboard and per-fold reports live under
-`results/RehabFact/six_model_comparison/evaluation/` (`summary.csv`,
-`mean.csv`, `best_model.json`, and per-model `fold*.json/csv`); the candidate
-set, per-fold adapter inventory, and selection provenance sit one level up.
-LoRA adapter weights and per-case prediction text are not distributed.
-`src/llm/README.md` documents the module's data-isolation and leakage
-controls.
 
 ---
 
